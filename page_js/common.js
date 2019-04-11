@@ -1,4 +1,3 @@
-// var url='http://10.1.70.11:8080/sellcourse';
 var url='http://39.106.112.14';
 $(function() {
 	$('.footer').load('footer.html',function(){
