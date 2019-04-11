@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>微信支付</title>
+		<link rel="stylesheet" href="page_css/common.css" />
+		<link rel="stylesheet" href="page_css/iconfont.css" />
+		<link rel="stylesheet" href="page_css/wechatPay.css" />
+		<script src="page_js/jquery-1.11.3.js"></script>
+		<script src="page_js/jquery.qrcode.js"></script>
+		<script src="page_js/qrcode.js"></script>
+		<script src="page_js/common.js"></script>
+		<script src="page_js/wechatPay.js"></script>
+	</head>
+
+	<body>
+		<header class="header_box"></header>
+		<div class="container">
+			<div class="weixin">
+				<div class="weixin-detail">
+					<div class="weixin-code">
+						<div class="weixin-left">
+							<div class="weixin-title">微信支付<span>(请尽早支付，以便订单尽快处理。)</span></div>
+							<div class="weixin-pic">
+								<div class="weixin-link" id="qrcodeTable"></div>
+							</div>
+							<div class="weixin-info">
+								<p>打开微信扫一扫功能</p>
+								<p>扫描二维码支付</p>
+							</div>
+						</div>
+						<div class="weixin-right"></div>
+					</div>
+					<div class="weixin-mes">
+						<div>支付金额：<span id="price"></span>元</div>
+						<div class="orderNum">订单号：<b></b></div>
+					</div>
+					<!--<input type="hidden" value="weixin://wxpay/bizpayurl?pr=QePM9yx" id="urlPay">-->
+				</div>
+			</div>
+		</div>
+		<footer class="footer"></footer>
+	</body>
+</html>

@@ -1,0 +1,84 @@
+*{
+     padding:0rem;
+     margin:0rem;
+     font-size:0.4rem;
+     font-family: tahoma, arial, "微软雅黑", \5b8b\4f53, sans-serif;
+}
+ html,body {
+     background:#fff;
+     height: 100%;
+     padding: 0;
+     margin: 0;
+}
+ li{
+     list-style: none;
+}
+ a{
+     text-decoration: none;
+     font-size:.4rem;
+}
+.mui-bar{
+	background-color:#11bffe;
+}
+.mui-bar .mui-icon{
+	color:#fff;
+}
+.mui-bar .mui-title{
+	color:#fff;
+}
+.mui-content{
+	background-color: #fff;
+	padding:.4rem;
+}
+.mui-content>div.textBg{
+	margin:.3rem 0;
+	height:1rem;
+	line-height: 1rem;
+	border-bottom: 1px solid #eee;
+}
+.mui-content div.textBg span{
+	float:left;
+	color:#B5B5B5;
+}
+.mui-content div.textBg input{
+	float:left;
+	width: 60%;
+	margin:0;
+	padding:0 .5rem;
+	height:.9rem;
+	line-height: .9rem;
+	border:none;
+	outline: none;
+}
+.mui-content div.textBg i{
+	float:right;
+	font-size: 14px;
+	color: #999;
+}
+.mui-content button{
+	width: 100%;
+	text-align: center;
+	height:1rem;
+	line-height: 1rem;
+	 background: -webkit-linear-gradient(120deg, #f39702, #ed7137); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(120deg, #f39702, #ed7137); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(120deg, #f39702, #ed7137); /* Firefox 3.6 - 15 */
+  background: linear-gradient(120deg, #f39702, #ed7137); /* 标准的语法 */
+	color:#fff;
+	border: none;
+	outline: none;
+}
+.photo img{width: 100px;height: 100px;}
+#imghead{
+	width: 122px;
+	height:122px;
+	margin: 10px auto;
+	border: 7px solid #9dcffb;
+	border-radius: 50%;
+	display: block;
+}
+#imghead img{width: 100px;height: 100px;}
+
+#previewImg{
+	display: none;
+}

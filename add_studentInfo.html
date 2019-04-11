@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>添加学员信息</title>
+		<link rel="stylesheet" href="page_css/iconfont.css" />
+		<link rel="stylesheet" href="page_css/simplepop.css" />
+		<link rel="stylesheet" href="page_css/common.css" />
+		<link rel="stylesheet" type="text/css" href="page_css/add_studentInfo.css" />
+		<script src="page_js/jquery-1.11.3.js"></script>
+		<script language="javascript" type="text/javascript" src="page_js/My97DatePicker/WdatePicker.js"></script>
+		<script src="page_js/simplepop.js"></script>
+		<script src="page_js/common.js"></script>
+		<script src="page_js/add_studentInfo.js"></script>
+	</head>
+	<body>
+		<header class="header_box"></header>
+		<div class="container">
+			<div>
+				<h2>选择学员</h2>
+				<h3><span id="addStudent">新增学员</span></h3>
+				<ul class="choice_student">
+
+				</ul>
+				<button id="sure">确定</button>
+			</div>
+		</div>
+		<footer class="footer"></footer>
+		<div class="mask none"></div>
+		<div class="info none">
+			<h3>新增学员信息<span>x</span></h3>
+			<ul class="studentForm">
+				<li><span><b>*</b>姓名</span><input type="text" id="membername" /></li>
+				<li><span><b>*</b>性别</span>
+					<select id="choice_sex">
+						<option value="1">男</option>
+						<option value="2">女</option>
+					</select>
+				</li>
+				<li><span><b>*</b>生日</span><input class="Wdate" type="text" onClick="WdatePicker()"></li>
+				<li><span>学校</span><input type="text" id="school" /></li>
+				<li><span>兴趣爱好</span><input type="text" id="like" /></li>
+			</ul>
+			<button class="saveStudentInfo">保存学员信息</button>
+		</div>
+		<div class="alert none"></div>
+		<div class="alert_content none">
+			<h3>提示</h3>
+			<p>恭喜您绑定成功！</p>
+			<button>确定</button>
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<div class="my_order">
+			<h1><span>我的订单</span></h1>
+			<div class="order_list">
+				<ul>
+					<!--<li>
+									<h1><b>订单账号：</b>123456 <b>购买时间：</b>2017-11-11 12:20:13 <em><b>状态：</b>已付费</em></h1>
+									<div>
+										<img src="img/course02.png" alt="" />
+										<div class="middle">
+											<h3>舞蹈提高班</h3>
+											<ul>
+												<li><span>班级名称:</span>鼓舞班</li>
+												<li><span>专业名称:</span>曲艺类</li>
+												<li><span>学员姓名:</span>李娜</li>
+												<li><span>开课时间:</span>2011-11-11</li>
+												<li><span>上课教室:</span>艺术室</li>
+												<li><span>上课校区:</span>河西校区</li>
+											</ul>
+										</div>
+										<div class="right">
+											<p><span>购买数量：</span>X1</p>
+											<p><span>订单金额：</span>￥1000</p>
+											<a href="">去支付</a>
+										</div>
+									</div>
+								</li>-->
+				</ul>
+			</div>
+			<div id="kkpager"></div>
+		</div>
+		<div class="ordermask none"></div>
+		<div class="bindStudent none">
+			<h2>您有未绑定学员的订单请进行绑定<span class="close_mask">x</span></h2>
+			<div class="student-list">
+				<h3><span id="addStudent">新增学员</span></h3>
+				<div class="choice-student">
+					<ul>
+						
+					</ul>
+					<button id="sure">绑定</button>
+				</div>
+			</div>
+			<div class="fill-in-info none">
+				<ul>
+					<li><span><b>*</b>姓名</span><input type="text" id="orderStudentName" /></li>
+					<li><span><b>*</b>性别</span>
+						<select id="choiceSex">
+							<option value="1">男</option>
+							<option value="2">女</option>
+						</select>
+					</li>
+					<li><span><b>*</b>生日</span><input class="Wdate" type="text" onClick="WdatePicker()"></li>
+					<li><span>学校</span><input type="text" id="studentSchool" /></li>
+					<li><span>兴趣爱好</span><input type="text" id="studentLike" /></li>
+				</ul>
+				<button class="save-student">保存</button>
+			</div>
+		</div>
+		<div class="choice-pay none">
+			<div class="choice">
+				<h2>选择付款方式并付款</h2>
+				<ul>
+					<li>
+						<input type="radio" name="pay" data-pay="2" checked="checked"/>
+					</li>
+					<li>
+						<input type="radio" name="pay" data-pay="1"/>
+					</li>
+				</ul>
+				<a class="sure-pay">确定</a>
+			</div>
+		</div>
+	</body>
+
+</html>

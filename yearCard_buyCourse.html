@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>年卡够课</title>
+		<link rel="stylesheet" href="page_css/simplepop.css" />
+		<link rel="stylesheet" href="page_css/common.css" />
+		<link rel="stylesheet" href="page_css/iconfont.css" />
+		<link rel="stylesheet" href="page_css/yearCard_buyCourse.css" />
+		<script src="page_js/jquery-1.4.1.min.js"></script>
+		<script src="page_js/common.js"></script>
+		<script src="page_js/simplepop.js"></script>
+		<script src="page_js/yearCard_buyCourse.js"></script>
+	</head>
+	<body>
+		<!--header-->
+		<header class="header_box"></header>
+		<div class="container">
+			<div class="course_info clearfloat">
+				<img src="img/shiyuanlesson.png" alt="" />
+				<div class="info">
+					<h2>课程名称：中国舞</h2>
+					<ul>
+						<li>课程教师：<span id="coursetteacher">舞蹈中心老师</span></li>
+						<li>授权机构：<span id="authorized">暂无</span></li>
+						<li>专业名称：<span id="specialtyname">舞蹈专业</span></li>
+						<li>开课日期：<span id="courseopendata">2018年5月</span></li>
+						<li>年龄范围：<span id="agerange">3-5岁</span></li>
+						<li>招生人数：<span id="studentnum">200人</span></li>
+						<li>校区地址：<span id="schoolarea">南开</span></li>
+						<li>课程价格：<b>￥</b><span class="cost" id="cost">400</span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="course_detail">
+				<!--<span class="courseTitle">选择中心</span>
+				<div class="choice_center">
+					<ul>
+						<span class="cur">戏剧影视中心</span>
+						<span>音乐表演中心</span>
+						<span>中华戏曲中心</span>
+						<span>戏剧影视中心</span>
+						<span>音乐表演中心</span>
+						<span>中华戏曲中心</span>
+					</ul>
+				</div>-->
+				<span class="courseTitle">选择课程</span>
+				<div class="choice_course">
+					<ul>
+						<li class="checkedCourse">
+							<img src="img/course02.png" alt="" />
+							<h2>中国舞</h3>
+							<b class="state01"></b>
+						</li>
+						<li class="">
+							<img src="img/course02.png" alt="" />
+							<h2>中国舞</h3>
+							<b class="state01"></b>
+						</li>
+						<li class="">
+							<img src="img/course02.png" alt="" />
+							<h2>中国舞</h3>
+							<b class="state01"></b>
+						</li>
+						<li class="">
+							<img src="img/course02.png" alt="" />
+							<h2>中国舞</h3>
+							<b class="state01"></b>
+						</li>
+						<li class="">
+							<img src="img/course02.png" alt="" />
+							<h2>中国舞</h3>
+							<b class="state01"></b>
+						</li>
+					</ul>
+					<button class="pre"></button>
+					<button class="next"></button>
+				</div>
+				<span class="courseTitle">选择班级</span>
+				<div class="grade">
+					<ul>
+						<li class="gradeSelect">一年1班</li>
+						<li>一年2班</li>
+						<li>一年3班</li>
+						<li>一年4班</li>
+					</ul>
+					<button class="add">添加</button>
+				</div>
+				
+				<span class="courseTitle">课程表</span>
+				<div class="schedule ">
+					<ul>
+						<li>
+							<b>1</b>
+							<span>11月1日</span>
+							<span>中国舞</span>
+							<span>中国舞教师</span>
+							<span>10:00-11:00</span>
+						</li>
+						<li>
+							<b>2</b>
+							<span>11月1日</span>
+							<span>中国舞</span>
+							<span>中国舞教师</span>
+							<span>10:00-11:00</span>
+						</li>
+						<li>
+							<b>3</b>
+							<span>11月1日</span>
+							<span>中国舞</span>
+							<span>中国舞教师</span>
+							<span>10:00-11:00</span>
+						</li>
+						<li>
+							<b>4</b>
+							<span>11月1日</span>
+							<span>中国舞</span>
+							<span>中国舞教师</span>
+							<span>10:00-11:00</span>
+						</li>
+					</ul>
+				</div>
+				<span class="courseTitle">课程详情</span>
+				<div class="detail" id="coursecount">
+					<p>
+						
+					</p>
+					<!--<p>面孔了世纪东方啊啊记录卡福建安防发进来否价格啊，季卡时代峻峰暗精灵卡惊世毒妃啊。好卡手机积分换案例金坷垃多少积分；加速对方爱看佛教大赛发，交多少分啊发酵饲料大姐夫。</p>
+					<p>面孔了世纪东方啊啊记录卡福建安防发进来否价格啊，季卡时代峻峰暗精灵卡惊世毒妃啊。好卡手机积分换案例金坷垃多少积分；加速对方爱看佛教大赛发，交多少分啊发酵饲料大姐夫。</p>
+					<p>面孔了世纪东方啊啊记录卡福建安防发进来否价格啊，季卡时代峻峰暗精灵卡惊世毒妃啊。好卡手机积分换案例金坷垃多少积分；加速对方爱看佛教大赛发，交多少分啊发酵饲料大姐夫。</p>
+					<p>面孔了世纪东方啊啊记录卡福建安防发进来否价格啊，季卡时代峻峰暗精灵卡惊世毒妃啊。好卡手机积分换案例金坷垃多少积分；加速对方爱看佛教大赛发，交多少分啊发酵饲料大姐夫。</p>
+					<ul class="">
+						<li><img src="img/course_detail01.png" alt="" /></li>
+						<li><img src="img/course_detail02.png" alt="" /></li>
+						<li><img src="img/course_detail03.png" alt="" /></li>
+					</ul>-->
+				</div>
+				<span class="courseTitle">已选课列表</span>
+				<div class="selectedCourse">
+					<ul>
+						<li>
+							<img src="img/course02.png" alt="" />
+							<h3>中国舞（周六班）</h3>
+							<span class="delete">X</span>
+						</li>
+						<li>
+							<img src="img/course02.png" alt="" />
+							<h3>中国舞（周六班）</h3>
+							<span class="delete">X</span>
+						</li>
+						<li>
+							<img src="img/course02.png" alt="" />
+							<h3>中国舞（周六班）</h3>
+							<span class="delete">X</span>
+						</li>
+					</ul>
+					<div>
+						<span>已选择<b>3</b>个课程</span>
+						<span>还剩<b>1</b>个课程</span>
+						<span class="price">组合价<b>￥4980.00</b></span>
+						<button class="buy">立即购买</button>
+					</div>
+					<p>></p>
+				</div>
+			</div>
+		</div>
+		<!--footer-->
+		<div class="footer"></div>
+	</body>
+</html>

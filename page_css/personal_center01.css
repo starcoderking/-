@@ -1,0 +1,396 @@
+.none {
+	display: none;
+}
+
+.center {
+	padding: 50px 10px;
+	overflow: hidden;
+}
+
+.center .nav {
+	float: left;
+	width: 240px;
+}
+
+.center .nav .user_info {
+	height: 225px;
+	overflow: hidden;
+	border: 1px solid #ddd;
+	margin-bottom: 10px;
+}
+
+.center .nav .user_info img {
+	width: 115px;
+	height: 115px;
+	margin: 10px auto;
+	border-radius: 50%;
+	display: block;
+}
+
+.center .nav .user_info p {
+	text-align: center;
+	color: #666;
+}
+
+.center .nav ul {
+	min-height: 255px;
+	padding: 5px;
+	padding-bottom: 10px;
+	border: 1px solid #ddd;
+}
+
+.center .nav ul li {
+	padding: 5px 0;
+	border-bottom: 1px solid #f8f8f8;
+	cursor: pointer;
+}
+
+.center .nav ul li.current {
+	background: #ddd;
+}
+
+.center .nav ul li b {
+	font-size: 19px;
+	color: #F39702;
+	padding-right: 10px;
+}
+
+.center .nav ul li:first-child b {
+	font-size: 16px;
+}
+
+.center .nav ul li span {
+	font-size: 16px;
+	color: #737373;
+}
+
+.center .nav ul li i {
+	float: right;
+	font-size: 20px;
+}
+
+.center .detail {
+	float: left;
+	width: 920px;
+	min-height: 549px;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+	overflow: hidden;
+	padding: 10px;
+	margin-left: 20px;
+}
+
+input {
+	background: #fff;
+}
+/*修改密码*/
+
+.changePwd div button {
+	display: block;
+	width: 130px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	color: #fff;
+	background: #F39702;
+	cursor: pointer;
+	border: 0;
+	outline: 0;
+	border-radius: 3px;
+	margin: 20px auto;
+}
+
+
+/*.changePwd div button.disabled{
+	background: #ddd;
+}*/
+
+.changePwd div ul {
+	width: 500px;
+	margin: 50px auto;
+	padding-right: 20px;
+	text-align: center;
+}
+
+.changePwd div ul li {
+	line-height: 40px;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.changePwd div ul li em {
+	font-style: normal;
+	font-size: 16px;
+	color: #999999;
+}
+
+.changePwd div ul li input {
+	width: 40%;
+	width: 45%;
+	height: 35px;
+	line-height: 40px;
+	border-radius: 3px;
+	border: 1px solid #ddd;
+	padding-left: 10px;
+}
+
+.changePwd div ul li i {
+	position: absolute;
+	color: #FF6600;
+	right: -34px;
+	top: 0px;
+}
+
+
+/*学员信息*/
+
+
+
+/*我的课程表*/
+
+
+
+/*我的订单*/
+
+
+
+
+/*我的消息*/
+
+
+
+
+/*.message .notice_detail ul{
+	height: 100%;
+	overflow-y: scroll;
+}*/
+
+.message .notice_detail ul li {
+	margin: 0 30px;
+}
+
+.message .notice_detail ul li span {
+	/*color: #fff;*/
+	font-size: 14px;
+}
+
+.message .notice_detail ul li p {
+	font-size: 14px;
+	text-indent: 28px;
+	text-align: justify;
+}
+
+.privateLetter_detail h2 {
+	text-align: center;
+	color: #F39702;
+	padding: 20px 0 10px;
+	margin: 0 20px;
+	border-bottom: 1px solid #F39702;
+}
+
+.privateLetter_detail ul {
+	width: 80%;
+	border: 1px solid #ddd;
+	height: 370px;
+	overflow-y: scroll;
+	margin: 10px auto;
+}
+
+.message .privateLetter_detail ul li {
+	padding: 10px;
+	overflow: hidden;
+}
+
+.message .privateLetter_detail ul li img {
+	float: left;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	padding: 10px;
+	vertical-align: middle;
+}
+
+.message .privateLetter_detail ul li p {
+	font-size: 16px;
+	vertical-align: middle;
+	line-height: 20px;
+	padding: 15px 0;
+	width: 88%;
+	float: left;
+	text-indent: 32px;
+	text-align: justify;
+	background: #f94;
+	color: #fff;
+	border-radius: 10px;
+}
+
+.message .privateLetter_detail ul li.me img {
+	float: right;
+}
+
+.message .privateLetter_detail ul li.me p {
+	float: right;
+	background: #81d741;
+}
+
+.privateLetter_detail ul li>div p {
+	background: #ddd;
+	border-radius: 10px;
+	padding: 3px 10px;
+	font-size: 12px;
+}
+
+.private_letter {
+	position: relative;
+}
+
+.private_letter .getMore {
+	position: absolute;
+	top: 65px;
+	left: 340px;
+}
+
+.private_letter .text {
+	position: relative;
+}
+
+.private_letter .text span {
+	background: #ddd;
+	border: 1px solid #666666;
+	border-radius: 50%;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	line-height: 17px;
+	position: absolute;
+	top: 3px;
+	left: 35px;
+}
+
+.private_letter .text textarea {
+	width: 92%;
+	height: 90px;
+	padding: 20px;
+	box-sizing: border-box;
+	margin-left: 30px;
+	outline: 0;
+}
+
+.private_letter .text button {
+	position: absolute;
+	bottom: 7px;
+	right: 33px;
+	width: 50px;
+	height: 30px;
+	border-radius: 3px;
+	background: #;
+	border: 0;
+	background: #f67460;
+	cusor: pointer;
+	cursor: pointer;
+	color: #fff;
+}
+/*我的优惠券*/
+
+/*我的惠民卡*/
+.huiminCard table{
+	width: 70%;
+	margin: 0 auto;
+}
+.huiminCard table,tr,td,th{
+	border:1px solid #ddd;
+	text-align: center;
+	border-collapse: collapse;
+}
+.huiminCard tr,.huiminCard td,.huiminCard th{
+	font-size: 15px;
+	text-align: center;
+	padding: 10px 0;
+}
+/*新用户指南*/
+
+.studentSel {
+    float: left;
+    width: 50%;
+    padding-top: 10px;
+    overflow: hidden;
+    /* margin-left: 20px; */
+    box-sizing: border-box;
+}
+.student_course table{
+	width: 100%;
+}
+.student_course table td{
+	text-align: center;
+}
+/*.studentSel div{float: right;}*/
+
+.studentSel label {
+	float: right;
+	font-size: 16px;
+	color: #666;
+	margin-right: 10px;
+	padding-top: 3px;
+}
+
+.studentSel select {
+	width: 72px;
+	height: 30px;
+	float: right;
+	line-height: 30px;
+	border: 1px solid #CBCBCB;
+	border-radius: 4px;
+}
+
+.mask {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	background: #666;
+	opacity: .4;
+}
+
+.dialog {
+	width: 300px;
+	height: 150px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -75px;
+	margin-left: -150px;
+	background: #fff;
+	z-index: 1000;
+	border-radius: 5px;
+}
+
+.dialog>h3 {
+	padding: 5px 10px;
+	background: #ddd;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.dialog>div {
+	font-size: 16px;
+	padding: 20px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+
+.dialog>button {
+	float: right;
+	width: 75px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #F39702;
+	color: #fff;
+	border: 0;
+	outline: 0;
+	border-radius: 3px;
+	margin: 5px 5px 0 0;
+	cursor: pointer;
+}

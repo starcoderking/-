@@ -1,0 +1,35 @@
+/*中心简介*/
+.companyBg{width: 1200px;height: 340px;margin: 20px auto;border-bottom: 2px dashed #eb6241; }
+.companyInfo{width: 540px;height: 340px;float: left;}
+.companyName{width: 308px;height: 30px;margin-left: 20px;float: left;}
+.companyTitle{width: 315px;height: 30px;float: right;margin-top: 20px;}
+.companyMes{width: 550px;overflow: hidden;line-height: 30px;font-family: "微软雅黑";font-size: 14px;color: #333;margin-left: 20px;text-indent: 30px;}
+.companyNote{width: 430px;height: 340px;float: right;margin-right: 30px;}
+.noteBg{width: 260px;height: 40px;line-height: 40px;text-align: center;color: #fff;font-family: "微软雅黑";font-size: 16px;font-weight: 600;background: url(../img/aboutUs_bg.png) no-repeat;margin: 7px 0px;}
+.noteLeft{float: left;margin-left: 50px;}
+.noteRight{float: right;margin-right: 50px;}
+
+.groupBg{width: 1200px;height: 220px;margin: 10px auto 20px auto;}
+.groupImg{width: 550px;height: 180px;float: left;margin-top: 40px;}
+.img01{width: 220px; height: 180px;float: left;background: #ee9009;border-radius:10px ;}
+.img02{width: 220px; height: 180px;float: left;background: #cddb29;border-radius:10px ;margin-left: 60px;}
+.img01 img,.img02 img{width: 210px;height: 170px;margin: 5px;border-radius:10px ;}
+.groupInfo{width: 500px;height: 220px;margin-left: 20px;float: right;margin-right: 50px;}
+.groupName{width: 180px;height: 30px;float: right;margin-bottom: 10px;}
+.groupMes{width: 500px;overflow: hidden;line-height: 30px;font-family: "微软雅黑";font-size: 14px;color: #333;text-indent: 30px;}
+
+.teacherBg{width: 1200px;overflow: hidden;margin:10px auto 20px auto;}
+.tab_menu{width: 1200px;height: 46px;}
+.tab_menu li{width: 140px;height: 46px;line-height: 46px;color: #ee9009;text-align: center;background: url(../img/tab02.png) no-repeat;float:left;cursor: pointer;}
+.tab_menu li.current{color: #fff;background: url(../img/tab01.png) no-repeat;}
+.teacherInfo{width: 1200px;overflow: hidden;margin: 10px auto;}
+.teacherMes{width: 1200px;height:90px;overflow: hidden;text-indent: 30px;font-family: "微软雅黑";font-size: 14px;color: #333;line-height: 20px;}
+.teacherShow{width: 1200px;overflow: hidden;border-top:8px solid #f8f8f8;padding-top: 20px;/*margin-top: 20px;*/}
+.teacherTitle{width: 44px;height: 125px;background: url(../img/titleBg01.png);margin-right: 20px;float: left;}
+.teacherTitles{width: 44px;height: 125px;background: url(../img/titleBg02.png);margin-right: 20px;float: left;}
+.teacherList{float: left;}
+.teacherList li{width: 112px;height: 142px;margin-right: 25px;float: left;}
+.teacherImg{width: 112px;height: 112px;background: url(../img/imgBg.png) no-repeat;}
+.teacherImg img{width: 100px;height: 100px;margin-left:15px;border-radius:50% ;}
+.teacherName{width: 112px;height: 30px;line-height: 30px;text-align: center;font-family: "微软雅黑";font-size: 14px;color: #ee9009;}
+.hide{display: none;}

@@ -1,0 +1,180 @@
+.none{
+	display: none;
+}
+.container>div{
+	width: 70%;
+	margin: 20px auto;
+	text-align: center;
+}
+.container>div h2{
+	padding-bottom: 3px;
+	margin-bottom: 15px;
+	border-bottom: 2px solid #F39704;
+}
+.container>div ul{
+	width: 50%;
+	margin: 0 auto;
+}
+.container>div ul li{
+	line-height: 50px;
+	overflow: hidden;
+}
+.container>div ul li span{
+	float: left;
+    font-size: 16px;
+    color: #999;
+    width: 100px;
+    text-align: r;
+    text-align: right;
+    margin: 0 20px 0 0;
+}
+li input,#choice_sex{
+	float: left;
+    width: 250px;
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid #999;
+    border-radius: 1px;
+    outline: 0;
+}
+#choice_sex{
+	width: 260px;
+}
+#sure{
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	border: 0;
+	outline: 0;
+	color: #fff;
+	font-size: 14px;
+	background: #F39704;
+	border-radius: 2px;
+	margin-top: 15px;
+	cursor: pointer;
+}
+.choice_student>li{
+	cursor: pointer;
+}
+.choice_student>li:hover{
+	border:1px solid #f00;
+}
+.choice_student .cur{
+	border:1px solid #f00;
+	background: url('../img/right-icon.gif') no-repeat right bottom;
+	border-radius: 3px;
+}
+#addStudent{
+	float: right;
+	color:#F39702;
+	cursor: pointer;
+}
+#addStudent:hover{
+	color:#f00;
+}
+.mask{
+	position: absolute;
+	width:100%;
+	height: 100%;
+	background: #000;
+	z-index: 100;
+	opacity: .5;
+	left: 0;
+	top: 0;
+}
+.info{
+	width: 500px;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+	background: #fff;
+	margin-left: -250px;
+	margin-top: -100px;
+	z-index: 101;
+}
+.studentForm li{
+	line-height: 50px;
+	overflow: hidden;
+}
+.studentForm li span{
+	float: left;
+    font-size: 16px;
+    color: #999;
+    width: 100px;
+    text-align: r;
+    text-align: right;
+    margin: 0 20px 0 0;
+}
+.studentForm li span b{
+	color:#f00;
+}
+.info h3{
+    padding: 0 10px;
+    height: 31px;
+    line-height: 31px;
+    background: #f3f3f3;
+    font-size: 14px;
+    color: #666;
+}
+.info h3 span{
+	float: right;
+	color:#f00;
+	cursor: pointer;
+}
+.saveStudentInfo{
+	display: block;
+	width: 100px;
+	height: 35px;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	background: #F39702;
+	color: #fff;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+.alert{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: .7;
+	z-index: 100;
+}
+.alert_content{
+	position: fixed;
+	width: 250px;
+	height: 150px;
+	background: #fff;
+	top: 50%;
+	left: 50%;
+	margin-left: -125px;
+	margin-top: -75px;
+	z-index: 101;
+	opacity: 1;
+}
+.alert_content h3{
+	background: #F39702;
+	padding: 0 5px;
+}
+.alert_content p{
+	text-align: center;
+	color: #000;
+	font-size: 16px;
+	padding: 30px 0;
+}
+.alert_content button{
+	float: right;
+	width: 60px;
+	height: 35px;
+	background: #F39702;
+	border: 0;
+	outline: 0;
+	text-align: center;
+	border-radius: 3px;
+	margin-right: 10px;
+	cursor: pointer;
+}

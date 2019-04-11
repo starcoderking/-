@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	    <title>登录页</title>
+	    <link href="css/mui.min.css" rel="stylesheet" />
+	    <link rel="stylesheet" href="css/iconfont.css" />
+	    <link rel="stylesheet" href="css/uiAlertView-1.0.0.css">
+	    <link rel="stylesheet" href="css/login.css" />
+	</head>
+	<body>
+		<div class="loginBg">
+			<div class="logo"><img src="images/logos.png"/></div>
+			<div class="tabBg">
+				<a href="login.html">
+					<div class="tabBox">
+						<p>登录</p>
+						<p><i class="iconfont icon-shang"></i></p>
+					</div>
+				</a>
+				<a href="register.html">
+					<div class="tabBox">
+						<p>注册</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class='page'>
+			<div class="login-form">
+				<div class="dfinput">
+					<label><i class="iconfont icon-yonghu"></i></label>
+					<input type="text" class="account" id="uname" placeholder="请输入用户名/手机号">
+				</div>
+				<!--<div class="dfinput">
+					<label><i class="iconfont icon-shouji"></i></label>
+					<input type="text" class="account" id="phone" placeholder="请输入手机号">
+				</div>-->
+				<div class="dfinput">
+					<label><i class="iconfont icon-mima"></i></label>
+					<input type="password" class="pwd" id="upwd" placeholder="请输入密码">
+				</div>
+				<!--<div class="dfinput">
+					<label><i class="iconfont icon-yanzhengma"></i></label>
+					<input type="password" class="pwd" id="vcode" placeholder="请输入验证码">
+					<span><img alt="看不清楚，换一张" src="http://10.1.70.201:8080/sellcourse/servlet/VerificationCodeServlet" onclick="reloadVerifyCode(this);" id="captcha_img" /></span>
+				</div>-->
+				<!--<div id="login_way">
+					<input type="radio" name="loginway" checked="checked" value="1"/> 春雨艺术教育登录
+					<input type="radio" name="loginway" value="2"/> 北演登录
+				</div>-->
+				<div id="login_way">
+					<div><em class="radio radioSel"></em><span data-value="1">春雨艺术教育登录</span></div>
+					<div><em class="radio"></em><span data-value="2">北演登录</span></div>
+				</div>
+				<div class="submit">
+					<button type="button" id="submit">登 录</button>
+				</div>
+				<div class='other'>
+					<a class='reg' href="register.html">立即注册</a>
+					<a class='forget' href="forget_pwd.html">忘记密码？</a>
+				</div>
+			</div>
+			<!--<div class="login-fast">
+				<div class="loginTitle"><span>快速登录</span></div>
+				<ul class="loginMethod">
+					<li><i class="iconfont icon-QQ"></i></li>
+					<li><i class="iconfont icon-weixin"></i></li>
+					<li><i class="iconfont icon-weibo"></i></li>
+				</ul>
+			</div>-->
+		</div>
+		<div class="mask none"></div>
+		<div class="mask_content none">
+			<h3>提示信息</h3>
+			<div>是否同意使用天津演艺网账户同步登录,如有疑问请拨打客服电话022-88268560</div>
+			<button class="yes">是</button>
+			<button class="no">否</button>
+		</div>
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/jquery.uiAlertView-1.0.0.js"></script>
+		<!--<script src="js/mui.min.js"></script>-->
+		<script src="js/common.js"></script>
+		<script src="js/login.js"></script>
+	</body>
+</html>

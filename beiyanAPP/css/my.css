@@ -1,0 +1,115 @@
+body{
+	background: #fff;
+}
+.mui-table-view-cell>a:not(.mui-btn){text-decoration: none;}
+.clearfloat:after {
+	content: " ";
+	display: table;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.none {
+	display: none;
+}
+
+.mui-bar-tab~.mui-content {
+	padding-bottom: 0;
+}
+
+.mui-bar-tab .mui-tab-item {
+	vertical-align: baseline;
+}
+
+.mui-content {
+	background: #fff;
+}
+
+.my-top {
+	widows: 100%;
+	height: 5.5rem;
+	background: url(../images/My.png) no-repeat top center;
+	position: relative;
+}
+
+.my-top .avatar {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: .8rem;
+	bottom: 0;
+	margin: auto;
+	width: 30%;
+	height: 65%;
+	overflow: hidden;
+}
+
+.my-top .avatar div {
+	width: 60%;
+	height: 50%;
+	margin: 0 auto .3rem;
+}
+
+.my-top .avatar div img {
+	width: 100%;
+	height: 100%;
+}
+
+.my-top .avatar p {
+	text-align: center;
+	color: #fff;
+	margin: 0;
+}
+
+.my-top .check-in {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: #FFf;
+	margin: .3rem;
+	font-size: .7rem;
+}
+.my-list ul li a{font-size: .45rem;color: #666;}
+.my-list ul li a i {
+	color: #f39702;
+	font-size: .5rem;
+	padding-right: 0.2rem;
+}
+
+.my-list ul li a b {
+	float: right;
+	font-weight: normal;
+	font-size: .40rem;
+	margin-right: -1.3rem;
+}
+
+.drop-out {
+	width: 100%;
+	text-align: center;
+	margin:.7rem 0 2rem 0;
+}
+
+.drop-out button {
+	width: 95%;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #aeaeae;
+	margin: 0 auto;
+	font-size: .4rem;
+	color: #bbb;
+	text-align: center;
+	border-radius:5px ;
+}
+.myBg{
+	width: 100%;
+	/*height:5.5rem;*/
+	background: url(../images/logoBg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.myPhoto{width: 110px;height: 150px;margin:0px auto ;}
+.myPhoto img{width: 110px;height: 110px;margin-top: 30px;border-radius:50% ;border: 8px solid #9ccffc;}
+.myInfo{width: 100%;text-align: center;color: #fff;}
+.address{text-align: center;color:#fff;}
+.mySign{width: 96%;text-align: right;}
+.mySign i{color: #fff;font-size: 20px;}

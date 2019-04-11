@@ -1,0 +1,84 @@
+*{
+     color:#b2b2b2;
+     margin:0rem;
+     padding:0rem;
+     font-size:0.4rem;
+     color:#292F33;
+     font-family: tahoma, arial, "微软雅黑", \5b8b\4f53, sans-serif;
+}
+ body{
+     background: #fff;
+}
+ li{
+     list-style: none;
+}
+ a{
+     text-decoration: none;
+     font-size:0.4rem;
+}
+.mallBg {
+	width: 100%;
+	height: 233px;
+	background: url(../images/showBg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.mesBg img{max-width: 100%;}
+.mallName{width: 100%;height: 200px;line-height: 200px;text-align: center;color: #fff;font-size: 18px;font-weight: 600;}
+.mallInfo{width: 100%;height: 33px;line-height: 33px;text-indent:24px;color: #fff;font-size: 14px;}
+.mallBox{width: 100%;overflow: hidden;border-bottom: 8px solid #F8F8F8;margin: 10px auto;}
+.mallTitle{width: 92%;height: 30px;line-height: 30px;margin: 0px auto;}
+.mallTitle span{float: left;font-size: 16px;font-weight: 600;color: #888;}
+.mallTitle a{float: right;font-size: 12px;color: #bbb;text-decoration: none;}
+.mallTitle a:link,.mallTitle a:hover,.mallTitle a:active,.mallTitle a:visited{text-decoration: none;}
+.mallTitle i{font-size: 20px;margin-right: 5px;}
+.mallTitle i.icon-xinxi1{color: #0c9af5;}
+.mallTitle i.icon-jiaoshi-copy-copy{color: #fba500;}
+.mallTitle i.icon-xueyuan{color: #fa0455;}
+.educationMes{width: 100%;overflow: hidden;margin: 10px auto;}
+.news,.teacher,.student {width: 92%;overflow: hidden;margin: 0px auto;}
+.news li{width: 100%;height: 35px;line-height: 35px;border-bottom: 1px dashed #eee;font-size: 14px;}
+.news li:last-child{border-bottom: none;}
+.news li div{width:75%;float: left;font-size: 14px;color: #666;overflow: hidden;white-space:nowrap;text-overflow: ellipsis;}
+.news li em{float: right;font-size: 12px;color: #bbb;}
+.teacher li{width: 31.33%;height: 4.8rem;margin: 1%;float: left;}
+.teacher img{width: 100%;height: 4rem ;}
+.teacher span{width: 100%;height: .8rem;line-height: .5rem;text-align: center;font-size: 14px;color: #666;display: inline-block;}
+.student li{width: 31.33%;height: 3.8rem;margin: 1%;float: left;}
+.student img{width: 100%;height: 3rem;}
+.student span{width: 100%;height: .8rem;line-height: .5rem;text-align: center;font-size: 14px;color: #666;display: inline-block;}
+.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body{position: absolute;top: 50%;margin-top: -10px;color: #fff;}
+.mesBg{width: 92%;overflow: hidden;margin: 44px auto 0px auto;}
+.mesBgs{width: 100%;overflow: hidden;margin: 44px auto 0px auto;}
+.map{width: 100%;height: 350px;}
+.infoBg{width: 92%;margin: 10px auto 0px auto;}
+.infoName{width: 100%;height: 30px;line-height: 30px;color: #162b6c;font-size: 16px;font-weight: 600;}
+.infoBg ul{width: 100%;margin: 10px auto 0px auto;}
+.infoBg li{widows: 100%;/*height: 30px;*/line-height: 30px;}
+.infoBg li i{color: #f39702;font-size: 18px;margin-right: 2px;font-weight: 600;}
+.infoBg li b{color: #666;font-size: 14px;}
+.infoBg li span{color: #333;font-size: 14px;}
+.infoImg{width:100px ;height: 130px;margin: 0px auto;}
+.infoImg img{width:100px ;height: 100px;}
+.infoImg span{display: inline-block;font-size: 13px;width:100px ;height: 20px;line-height: 20px;text-align: center;}
+.educationVideo{width: 100%;overflow: hidden;margin-top: 20px;}
+.educationVideo video{width: 100%;}
+.infoMes{width: 100%;overflow: hidden;}
+.infoMes p{line-height: 30px;text-indent: 24px;font-size: 14px;}
+.infoPic,.infoPic img{width: 100%;}
+.contact_name{width: 100%;height: 40px;line-height: 40px;color: #162b6c;font-size: 18px;font-weight: 600;}
+.contact_list{width: 100%;overflow: hidden;}
+.contact_list li{width: 100%;height: 60px;margin: 10px auto;}
+.contact_icon{height: 60px;margin-right: 5px;float: left;line-height: 20px;}
+.contact_icon b{font-size: 30px;color: #fb8c1f;}
+.contact_info{height: 60px;float: left;}
+.contact_info p{height: 30px;line-height: 20px;font-size: 18px;color: #999;}
+p.contact_info{font-size: 14px;color: #666;}
+.contact_code{width: 102px;height: 102px;margin: 0px auto;border: 1px solid #CBCBCB;}
+.contact_code img{width: 90px;height: 90px;margin: 5px;}
+.contact_lable{width: 120px;height: 20px;line-height: 20px;text-align: center;margin: 5px auto 10px auto;}
+@media screen and (min-width: 768px){
+.map{height:600px;}
+}
+@media screen and (min-width: 1024px){
+.map{height:900px;}
+}

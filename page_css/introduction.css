@@ -1,0 +1,25 @@
+.center_intro{
+	padding:10px;
+}
+.center_intro>h2{
+	text-align: center;
+	font-size: 16px;
+	color:#666;
+	padding: 10px 0 5px 0;
+	border-bottom: 6px solid #f8f8f8;
+}
+.center_intro .content{
+	padding:10px 30px;
+}
+.center_intro .content p{
+	font-size: 13px;
+	color:#7f7f7f;
+	line-height: 25px;
+	text-indent: 26px;
+	text-align: justify;
+}
+.center_intro .content img{
+	width: 450px;
+	display: block;
+	margin: 10px auto;
+}

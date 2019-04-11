@@ -1,0 +1,269 @@
+/*@media screen and (min-width:321px) and (max-width:375px){html{font-size:16px}}
+@media screen and (min-width:376px) and (max-width:414px){html{font-size:12px}}
+@media screen and (min-width:415px) and (max-width:639px){html{font-size:15px}}
+@media screen and (min-width:640px) and (max-width:719px){html{font-size:20px}}
+@media screen and (min-width:720px) and (max-width:749px){html{font-size:22.5px}}
+@media screen and (min-width:750px) and (max-width:799px){html{font-size:23.5px}}
+@media screen and (min-width:800px){html{font-size:25px}}*/
+body{
+	background: #fff;
+}
+.none{
+	display: none;
+}
+input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea{
+	height: auto;margin-bottom: 0px;padding: 0px;
+}
+p{margin-bottom: 0px;}
+.loginBg {
+	width: 100%;
+	height:240px;
+	background: url(../images/logoBg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+.logo {
+	width: 6.875rem;
+	height: 9.375rem;
+	margin: 0rem auto;
+}
+
+.logo img {
+	width: 6.875rem;
+	height: 6.875rem;
+	margin-top: 2.5rem;
+}
+
+.tabBox {
+	width: 50%;
+	height: 2rem;
+	text-align: center;
+	float: left;
+	margin-top: 3.625rem;
+}
+
+.tabBox p {
+	width: 100%;
+	height: 1rem;
+	line-height: 1rem;
+	color: #fff;
+}
+
+.tabBox p i {
+	font-size: 0.9375rem;
+	line-height: 1.5rem;
+	color: #fff;
+}
+
+.page {
+	height: auto;
+	background: #fff;
+	overflow: hidden;
+}
+
+.page .login-form {
+	/*width:19.6875rem;*/
+	width: 76%;
+	height: 13.125rem;
+	margin: 3.75rem auto;
+}
+
+.page .dfinput {
+     border-bottom: 0.0625rem solid #f39702;
+     padding: 0.9375rem 0 0.625rem 0;
+}
+ .dfinput i {
+     color: #f39702;
+     font-size: 1.25rem;
+     font-weight: 600;
+}
+ 
+.page .login-form div label {
+	display: inline-block;
+	width: 1.5625rem;
+	height: 1.5625rem;
+	vertical-align: middle;
+	color: #bbb;
+}
+.page .login-form .dfinput{
+	position: relative;
+}
+.page .login-form .dfinput span{
+     position: absolute;
+     top: 1rem;
+     right: 0;
+     background: none;
+     outline: none;
+     color: #f39702;
+     padding: 0.125rem 0.5rem;
+     border: none;
+     border-left: 0.0625rem solid #f39702;
+}
+.page .login-form .dfinput span img{width: 77px;height: 22px;}
+.page .login-form div input{
+     border:none;
+     outline: none;
+     width: 80%;
+     font-size: 0.875rem;
+}
+
+.page .login-form div input {
+	border: none;
+	outline: none;
+	width: 80%;
+	font-size: 0.875rem;
+}
+
+.login-form .submit button {
+	width: 100%;
+	height: 2.5rem;
+	/*line-height: 2.5rem;*/
+	text-align: center;
+	color: #fff;
+	font-size: 0.875rem;
+	background: -webkit-linear-gradient(left, #ffc15c, #f39702);
+	/* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #ffc15c, #f39702);
+	/* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #ffc15c, #f39702);
+	/* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #ffc15c, #f39702);
+	/* 标准的语法 */
+	margin-top: 1.5rem;
+	border: none;
+	outline: none;
+	border-radius: 1.25rem;
+}
+
+.login-form .other {
+	padding: 0.625rem 0.9375rem;
+}
+
+.login-form .other .reg {
+	float: left;
+	color: #f39702;
+	font-size: 0.75rem;
+}
+
+.login-form .other .forget {
+	float: right;
+	color: #bbb;
+	font-size: 0.75rem;
+}
+
+.login-fast {
+    /*width:19.6875rem;
+     */
+     width: 76%;
+     height: 5rem;
+     margin: 2.75rem auto;
+}
+ 
+.loginTitle{
+     width: 100%;
+     height: 1.5rem;
+     line-height:1.5rem;
+     background: url(../images/titleBg.jpg) repeat-x;
+     text-align: center;
+}
+ .loginTitle span{
+     padding: 0rem 0.3125rem;
+     background: #fff;
+     color: #999;
+}
+ .loginMethod{
+     width: 100%;
+     height: 3.5rem;
+}
+ .loginMethod li{
+     width: 33.33%;
+     height: 3.5rem;
+     text-align: center;
+     line-height: 3.5rem;
+     float: left;
+}
+ .loginMethod li i{
+     font-size: 2.5rem;
+}
+ 
+i.icon-QQ{color: #3ab2ee;}
+i.icon-weixin{color: #5bdc78;}
+i.icon-weibo{color: #f4715f;}
+.ad {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+.ad img {
+	width: 100%;
+	height: 100%;
+}
+#login_way{
+	width: 240px;
+	height: 30px;
+	line-height: 30px;
+	margin: 30px auto 0px auto;
+    text-align: center;
+    font-size: .8rem;
+    color: #666;
+    overflow: hidden;
+}
+#login_way div{float: left;}
+#login_way .radio{width: 24px;height: 24px;display: inline-block;margin-right: 5px;background: url(../images/unselect.png) no-repeat center center;float: left;}
+#login_way .radioSel{background: url(../images/select.png) no-repeat center center;}
+#login_way span{display: inline-block;height: 30px;line-height: 30px;float: left;margin-right: 10px;}
+#login_way input{
+	display: inline-block;
+	width: 1rem;
+	margin-left: .5rem;
+	vertical-align: middle;
+}
+.mask{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #000;
+	opacity: .6;
+	z-index: 1000;
+}
+.mask_content{
+	position: fixed;
+    width: 20rem;
+    height: 11rem;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    z-index: 1001;
+    margin-top: -5.5rem;
+    margin-left: -10rem;
+}
+.mask_content h3{
+	background: #F39704;
+    padding: .2rem;
+    font-size: 1rem;
+    margin-top: -.2rem;
+}
+.mask_content>div{
+	text-align: center;
+    font-size: .8rem;
+    padding: 2rem 1rem;
+}
+.mask_content button{
+	float: right;
+	width: 50px;
+	height: 30px;
+	text-align: center;
+	font-size: 14px;
+	background: #F39704;
+	color: #fff;
+	border: 0;
+	outline: 0;
+	margin-right: 10px;
+	cursor: pointer;
+	border-radius: 3px;
+}

@@ -1,0 +1,34 @@
+.mui-bar .mui-icon{
+	color:#fff;
+}
+.mui-bar .mui-title{
+	color:#fff;
+}
+.content{
+	padding-top: 1.2rem;
+	/*overflow: hidden;*/
+}
+.content ul a li{
+	float:left;
+	width: 50%;
+	padding:.2rem;	
+}
+.content ul a li img{
+	width: 100%;
+	height: 4.5rem;
+}
+.content ul a li p{
+	
+	overflow: hidden;
+}
+.content ul a li p em,.content ul li p i{
+	float: right;
+	font-size: .35rem;
+} 
+/*适应各种分辨率的样式*/
+@media screen and (min-width: 320px){
+.content{padding-top:1.4rem}
+}
+@media screen and (min-width: 360px){
+.content{padding-top:1.2rem}
+}

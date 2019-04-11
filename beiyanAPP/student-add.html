@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>设置学员信息</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/iconfont.css" />
+		<link rel="stylesheet" href="css/uiAlertView-1.0.0.css">
+		<link rel="stylesheet" href="css/common.css" />
+		<!--<link rel="stylesheet" href="css/date.css" />-->
+		<link rel="stylesheet" type="text/css" href="css/student-add.css"/>
+		<script type="text/javascript" src="js/flexible_css.debug.js"></script>
+		<script type="text/javascript" src="js/flexible.debug.js"></script>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">设置学员信息</h1>
+		</header>
+		<div class="mui-content">
+			<div class="textBg">
+				<span><b>*</b>姓名</span>
+				<i class="iconfont icon-iconfonterror"></i>
+				<input type="text" id="membername"/>
+			</div>
+			<div class="textBg">
+				<span><b>*</b>性别</span>
+				<i class="iconfont icon-iconfonterror"></i>
+				<select id="choice_sex">
+					<option value="1">男</option>
+					<option value="2">女</option>
+				</select>
+			</div>
+			<div class="textBg">
+				<span><b>*</b>生日</span>
+				<i class="iconfont icon-iconfonterror" ></i>
+				<input type="date" id="date"/>
+				<!--<div id="datePlugin"></div>-->
+			</div>
+			<div class="textBg">
+				<span>&nbsp;学校</span>
+				<i class="iconfont icon-iconfonterror"></i>
+				<input type="text" id="school"/>
+			</div>
+			<div class="textBg">
+				<span>&nbsp;兴趣爱好</span>
+				<i class="iconfont icon-iconfonterror"></i>
+				<input type="text" id="like"/>
+			</div>
+			<button type="button" id="submit">提交</button>
+		</div>
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/jquery.uiAlertView-1.0.0.js"></script>
+		<!--<script src="js/mui.min.js"></script>-->
+		<!--<script src="js/date.js" ></script>--> 
+		<!--<script src="js/date_iscroll.js"></script>--> 
+		<script src="js/common.js"></script>
+		<script src="js/student-add.js"></script>
+	</body>
+</html>

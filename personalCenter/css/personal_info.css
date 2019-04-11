@@ -1,0 +1,93 @@
+.personal_info h1 {
+	font-size: 20px;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 20px;
+}
+
+.personal_info h1 span {
+	display: block;
+	padding: 5px 20px;
+	width: 150px;
+	color: #F39702;
+	box-sizing: border-box;
+	border-bottom: 2px solid #F39702;
+}
+.personal_info>div {
+	width: 50%;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+#imghead {
+	width: 120px;
+	height: 120px;
+	margin: 5px auto;
+	border: 7px solid #9dcffb;
+	border-radius: 50%;
+	display: block;
+}
+
+.edit_avatar {
+	text-align: center;
+	color: #F39704;
+}
+
+#previewImg {
+	display: none;
+}
+
+.personal_info>div ul li {
+	padding: 10px 0;
+	overflow: hidden;
+}
+
+.personal_info>div ul li span {
+	font-size: 14px;
+	color: #9d9d9d;
+	float: left;
+	line-height: 35px;
+	display: inline-block;
+}
+.personal_info>div ul li span>b{
+	color: #f00;
+}
+.personal_info>div ul li input {
+	width: 70%;
+	height: 35px;
+	line-height: 40px;
+	float: right;
+	border-radius: 3px;
+	border: 1px solid #ddd;
+	padding-left: 10px;
+	margin-right: 10%;
+}
+
+.personal_info>div .save {
+	width: 150px;
+	height: 40px;
+	color: #fff;
+	background: #F39702;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	margin: 20px auto;
+	display: block;
+	border-radius: 3px;
+}
+
+.personal_info>div .none {
+	display: none;
+}
+
+.edit {
+	width: 150px;
+	height: 40px;
+	color: #fff;
+	background: #F39702;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	margin: 20px auto;
+	display: block;
+	border-radius: 3px;
+}

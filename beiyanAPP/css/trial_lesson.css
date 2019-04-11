@@ -1,0 +1,560 @@
+.none {
+	display: none;
+}
+.course-img {
+	position: relative;
+}
+
+.course-img img {
+	width: 100%;
+	/*height: 5rem;*/
+}
+
+.course-img h2 {
+	position: absolute;
+	left: 0;
+	bottom: .1rem;
+	background: rgba(0, 0, 0, 0.3);
+	width: 100%;
+	line-height: .8rem;
+	margin: 0;
+}
+
+.course-img h2 span {
+	color: #fff;
+	font-size: .4rem;
+}
+
+.course-img h2 .course-name {
+	float: left;
+	margin-left: .2rem;
+}
+
+.course-img h2 .people-number {
+	float: right;
+	margin-right: .3rem;
+}
+.introduce{width: 100%;overflow: hidden;margin-bottom: 55px;}
+.introduce h3 {
+	padding: .2rem .1rem;
+	font-size: .4rem;
+	color: #777;
+	border-bottom: 1px solid #eee;
+	margin: 0px auto;
+}
+
+.introduce h3 span {
+	width: .6rem;
+	height: .6rem;
+	float: right;
+	/*background: url(../images/like.png) no-repeat;*/
+}
+
+.introduce h3 span i {
+	color: #bbb;
+	font-size: 20px;
+}
+
+.introduce div {
+	padding: .2rem .3rem;
+	border-bottom: 8px solid #f8f8f8;
+}
+
+.introduce div p {
+	margin: 0;
+	text-align: justify;
+}
+
+.introduce div p span {
+	font-size: .4rem;
+}
+
+.introduce div p .title {
+	color: #777;
+	width: 2rem;
+	display: inline-block;
+	text-align: center;
+}
+
+.introduce div p .des {
+	color: #999;
+}
+
+.introduce ul {
+	overflow: hidden;
+}
+
+.courses ul li {
+	float: left;
+	width: 47%;
+	text-align: center;
+	border: 1px solid #f39702;
+	background: #fff7ea;
+	border-radius: 0.15rem;
+	margin: 1%;
+	padding: .2rem .2rem;
+	position: relative;
+}
+.courses ul li.full{
+	background: #ddd;
+	color: #fff;
+	border: 1px solid #fff;
+}
+.courses ul li.full em{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: .3rem;
+	color: #f00;
+	border: 1px solid #F39702;
+	border-radius: .15rem;
+	padding: 0 .1rem;
+	background: #fff;
+}
+.courses ul li span{
+	display: block;
+}
+.courses ul li.gradeSelect {
+	/*width: 18%;*/
+	padding: .2rem .2rem;
+	background: url(../images/right-icon.gif) no-repeat bottom right;
+	color:#ed7137;
+}
+.courses ul li.gradeSelect span{
+	color: #ed7137;
+}
+.choice_course ul{
+	padding: 10px;
+	overflow: hidden;
+}
+.choice_course ul li{
+	width: 48%;
+	float: left;
+	position: relative;
+	padding: 5px;
+	margin: 1%;
+	box-sizing: border-box;
+	border: 2px solid #ddd;
+	border-radius: 3px;
+}
+.state01{
+	position:absolute;
+	left: 0;
+	top:0;
+	width: 40px;
+	height:26px;
+	padding: 0 3px;
+	background: url(../images/label01.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 1;
+	color:#fff;
+	text-align: center;
+	font-size: 12px;
+}
+.state02{
+	position:absolute;
+	left: 0;
+	top:0;
+	width: 40px;
+	height:26px;
+	padding: 0 3px;
+	background: url(../images/label02.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 1;
+	color:#fff;
+	text-align: center;
+	font-size: 12px;
+}
+.state03{
+	position:absolute;
+	left: 0;
+	top:0;
+	/*width: 40px;*/
+	height:26px;
+	padding: 0 3px;
+	background: url(../images/label03.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 1;
+	color:#fff;
+	text-align: center;
+	font-size: 12px;
+}
+.state01 em,.state02 em,.state03 em{color: #fff;}
+.add{
+	float: right;
+	margin-right: 20px;
+	display: inline-block;
+}
+.add i,.add font{
+	font-size: 12px;
+	color:#F39704;
+	float: left;
+}
+.add i{font-size: 16px;margin-right: 3px;}
+.choice_course ul li.checkedCourse{
+	border: 2px solid #F39704;
+}
+.choice_course ul li img{
+	width: 100%;
+}
+.choice_course ul li h2{
+	font-size: 12px;
+}
+.course-detail {
+	padding: .3rem;
+	/*margin-bottom: 30px;*/
+}
+
+.course-detail>ul {
+	overflow: hidden;
+}
+
+.course-detail>ul li {
+	float: left;
+	width: 40%;
+	font-size: .45rem;
+	text-align: center;
+	margin-left: 7%;
+	padding: .2rem 0;
+}
+
+.active {
+	color: #f39702;
+	border-bottom: 2px solid #f39702;
+}
+
+.course-detail .schedule ul {
+	overflow: hidden;
+	padding: 0.3rem .1rem .6rem .1rem;
+}
+
+.course-detail .schedule ul li {
+	float: left;
+	/*width: 18%;*/
+	text-align: center;
+	border: 1px solid #f39702;
+	background: #fff7ea;
+	border-radius: 0.15rem;
+	padding: .2rem .2rem;
+	/*margin: 2% 3%;*/
+}
+#detail-one li{
+	width: 30%;
+	margin: 1%;
+}
+.schedule ul li b {
+	color: #ed7137;
+	font-size: .6rem;
+	line-height: 1rem;
+	display: block;
+}
+
+.schedule ul li span {
+	display: block;
+	color: #f39702;
+	font-size: .4rem;
+	font-weight: normal;
+}
+
+#detail-two {
+	/*border: 1px solid #ddd;*/
+	border-radius: 0.1rem;
+	padding-bottom: .5rem;
+	margin-bottom: .5rem;
+}
+
+#detail-two li {
+	background: #fff;
+	border: none;
+	width: 100%;
+	font-size: .35rem;
+	color:#F39702;
+	margin-right: 0;
+	/*text-indent: .7rem;*/
+	text-align: justify;
+	line-height: 0.6rem;
+	padding: 0 .2rem;
+}
+
+#detail-three {
+	margin-bottom: .5rem;
+	padding-bottom: 0;
+}
+
+table,
+tr {
+	width: 100%;
+}
+
+table,
+tr,
+th,
+td {
+	border: 1px solid #ddd;
+}
+
+td,
+th {
+	width: 33%;
+	text-align: center;
+	font-size: .35rem;
+}
+
+.buy-course {
+	width: 100%;
+	overflow: hidden;
+	/*margin-top: .5rem;*/
+	position: fixed;
+	bottom: 0px;
+	background: #fff;
+	border-top: 1px solid #eee;
+	padding-top: 10px;
+	z-index: 999;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=#bbb, direction=120, strength=3);
+	/*ie*/
+	-moz-box-shadow: 2px 2px 10px #bbb;
+	/*firefox*/
+	-webkit-box-shadow: 2px 2px 10px #bbb;
+	/*safari或chrome*/
+	box-shadow: 2px 2px 10px #bbb;
+	/*opera或ie9*/
+}
+
+.buy-course p {
+	float: left;
+	padding-left: .5rem;
+}
+
+.buy-course p span {
+	color: #f39702;
+	font-size: .7rem;
+}
+
+.buy-course p s {
+	font-size: .4rem;
+	color: #999;
+}
+
+.buy-course button {
+	float: right;
+	background: -webkit-linear-gradient(120deg, #f39702, #ed7137);
+	/* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(120deg, #f39702, #ed7137);
+	/* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(120deg, #f39702, #ed7137);
+	/* Firefox 3.6 - 15 */
+	background: linear-gradient(120deg, #f39702, #ed7137);
+	/* 标准的语法 */
+	color: #fff;
+	outline: none;
+	border: none;
+	padding: .3rem .5rem;
+	margin-left: 5px;
+}
+
+.buy-course button.disabled {
+	background: -webkit-linear-gradient(120deg, #bbb, #777);
+	/* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(120deg, #bbb, #777);
+	/* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(120deg, #bbb, #777);
+	/* Firefox 3.6 - 15 */
+	background: linear-gradient(120deg, #bbb, #777);
+	/* 标准的语法 */
+}
+.mask{
+	width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    background: rgba(0,0,0,0.5);
+}
+.dialogBg{
+	width: 8rem;
+	height:4.5rem;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	margin-left: -4rem;
+	margin-top: -2.25rem;
+	background: #fff;
+	z-index: 101;
+	border-radius: .2rem;
+	padding: .2rem;
+}
+#remark{
+	font-size: .4rem;
+	padding: .1rem;
+	line-height: .5rem;
+	margin-bottom: .2rem;
+	height:2.5rem;
+}
+#submit,#cancel{
+    float: right;
+    display: inline-block;
+    width: 1.5rem;
+    height: .7rem;
+    line-height: .7rem;
+    text-align: center;
+    font-size: .4rem;
+    border-radius: .1rem;
+    background: #ddd;
+    color: #fff;
+    margin-right: .2rem;
+}
+#submit{
+	background: #F39704;
+}
+/*.selectedCourse ul{
+	padding: 0 20px;
+}*/
+.selectedCourse ul li{
+    position: relative;
+    float: left;
+    width: 47%;
+    margin: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 3px;
+    color: #ed7137;
+    text-align: center;
+    border: 1px solid #f39702;
+    background: #fff7ea;
+    padding:15px 5px 8px 5px;
+    overflow: hidden;
+}
+.selectedCourse ul li span{display: block;color: #ed7137;}
+.selectedCourse ul li b{
+	position: absolute;
+    right: -1px;
+    top: 0;
+    color: #f00;
+    border: 1px solid #f39072;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    line-height: 17px;
+    font-size: 12px;
+}
+.selectedCourse ul li .delete{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	font-size: 14px;
+	background: #ddd;
+	color: #f00;
+	cursor: pointer;
+	border-radius: 50%;
+	border: 1px solid #F39704;
+}
+.introduce button{
+	margin: .8rem auto;
+    width: 90%;
+    display: block;
+    background: -webkit-linear-gradient(120deg, #f39702, #ed7137); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(120deg, #f39702, #ed7137); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(120deg, #f39702, #ed7137); /* Firefox 3.6 - 15 */
+  background: linear-gradient(120deg, #f39702, #ed7137); /* 标准的语法 */
+    height: 1rem;
+    line-height: 1rem;
+    color: #fff;
+    border: none;
+}
+/*添加学员信息*/
+.mask{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	z-index:99999;
+	background:rgba(0,0,0,0.3);
+	display: none;
+}
+.info{
+	position: fixed;
+	width: 280px;  
+	left: 50%;
+	top:25%; 
+	margin-left: -140px; 
+	background: #fff;
+	z-index: 999999;
+	border:none;
+	border-radius: 12px;
+	border-color: #ddd;
+	text-align: center;
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);
+	font-family: "Microsoft YaHei";
+}
+.info h3 {
+	display: block;
+	font-size: 1.17em;
+	font-weight: bold;
+	color: #111;
+	margin:0;
+	margin-top: 15px;
+	padding: 0px 10px;
+}
+.info ul{width: 100%;overflow: hidden;margin-top: 20px;}
+.info li{width: 100%;height: 30px;clear: both;}
+.info span{
+	width: 30%;
+	height: 25px;
+	display: inline-block;
+	float: left;
+}
+.info input,.info select  {
+	width: 65%; 
+	height: 25px; 
+	border: #B5B5B5 solid 1px; 
+	border-radius:5px; 
+	padding-left:5px;
+	-webkit-appearance: none;
+	outline:none;
+	float: left;
+}
+.btnBg{
+	line-height:45px;
+	font-size: 16px;
+	font-weight:bold;
+	border-top:#B5B5B5 solid 1px;
+}
+.btn {
+	width: 49.8%;
+	float: left;
+	color: #228BFE;
+}
+.saveStudentInfo{
+	border-right:#B5B5B5 solid 1px;
+}
+.choice_student li{width: 96%;height: 50px;line-height: 50px;margin: 10px auto;border: 1px solid #bbb;border-radius:10px ;padding: 0px 15px;}
+.choice_student li span{color: #999;}
+.choice_student li.cur{border: 1px solid #f39702;}
+.choice_student li.cur span{color: #f39702;}
+/*试听课*/
+.prompt_browser{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1001;
+}
+.couponReceive{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+.choice_center>ul li{
+	width: 30%;
+}

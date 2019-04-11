@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>订单详情</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/uiAlertView-1.0.0.css">
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/order-detail.css"/>
+		<script type="text/javascript" src="js/flexible_css.debug.js"></script>
+		<script type="text/javascript" src="js/flexible.debug.js"></script>
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">订单详情</h1>
+		</header>
+		<div class="mui-content">
+			<div class="top-info">
+				<div>
+					<img src="images/teacher-detail01.png" alt="" />
+					<div>
+						<h3>舞蹈表演</h3>
+						<p>￥<span id="cost">1999</span></p>
+					</div>
+					<p><i class="iconfont icon-laoshi"></i>课程教师:<em id="teacher"></em></p>
+					<p><i class="iconfont icon-biaoqian"></i>专业名称:<em id="specialtyname"></em></p>
+					<p><i class="iconfont icon-shijian"></i>开课日期:<em id="courseopendata"></em></p>
+					<p><i class="iconfont icon-didian"></i>校区地址:<em id="schoolarea"></em></p>
+				</div>
+			</div>
+			<div class="studentInfo">
+				<h3>学员信息<a href="student-add.html?source=order_detail"><i class="iconfont icon-add"></i>添加学员</a></h3>
+				<ul>
+					<li>
+						<span>选择学员</span>
+						<i class="iconfont icon-you"></i>
+						<select id="select_child">
+							<!--<option value="1">王强王强</option>
+							<option value="2">张伟</option>
+							<option value="3">李明</option>-->
+						</select>				
+					</li>
+				</ul>	
+			</div>
+			<div class="order-detail">
+				<h3>订单详情</h3>
+				<ul>
+					<li>
+						<span>会员账号</span>
+						<em id="userid"></em>
+					</li>
+					<li>
+						<span>购买账户</span>
+						<em id="loginusername"></em>
+					</li>
+					<li>
+						<span>下单时间</span>
+						<em id="registrationdate"></em>
+					</li>
+					<li>
+						<span>应付金额</span>
+						<em id="costmoney"></em>
+					</li>
+					<li>
+						<span>惠民卡</span>
+						<div id="card">
+						</div>	
+					</li>
+					<li>
+						<span>优惠券</span>
+						<i class="iconfont icon-you"></i>
+						<select id="coupon"></select>
+					</li>
+					<li>
+						<span>实付金额</span>
+						<em id="realcost"></em>
+					</li>
+				</ul>
+			</div>
+			<div class="pay">
+				<h3>支付方式</h3>
+				<ul>
+					<li>
+						<div class="mui-input-row mui-radio">
+							<label>
+								<i class="iconfont icon-weixinzhifu"></i>
+								<span data-paymentmethod='2'>微信支付</span>
+							</label>
+							<input class="radio" name="pay" type="radio" checked="checked">
+						</div>
+					</li>
+					<!--<li>
+						<div class="mui-input-row mui-radio">
+							<label>
+								<i class="iconfont icon-umidd17"></i>
+								<span data-paymentmethod='1'>支付宝支付</span>
+							</label>
+							<input class="radio" name="pay" type="radio">
+						</div>
+					</li>-->
+				</ul>
+				<button id="pay">立即购买</button>
+			</div>
+		</div>
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/mui.min.js"></script>
+		<script src="js/jquery.uiAlertView-1.0.0.js"></script>
+		<script type="text/javascript" src="js/immersed.js" ></script> 
+		<script src="js/common.js"></script>
+		<script src="js/order-detail.js"></script>
+	</body>
+
+</html>

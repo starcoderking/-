@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>修改头像</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/common.css" /
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link type="text/css" rel="stylesheet" href="css/uiAlertView-1.0.0.css" />
+		<link rel="stylesheet" type="text/css" href="css/personal-mondify.css"/>
+		<script type="text/javascript" src="js/flexible_css.debug.js"></script>
+		<script type="text/javascript" src="js/flexible.debug.js"></script>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">修改头像</h1>
+		</header>
+		<div class="mui-content">
+				<!--<div class="photo">-->
+					<form action="" enctype="multipart/form-data" method="post" id="formImg">
+						<img id="imghead" name="imghead1" src="images/photo_icon.png" alt="" title="点击进行头像更改" onclick="$('#previewImg').click();">
+						<input type="file" onchange="previewImage(this)" id="previewImg" name="topimageurl">
+						<input type="hidden" value="" name="userid" id="userid">
+					</form>
+				<!--</div>-->
+				<button class="submit">提交</button>
+		</div>
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/jquery.form.js"></script>
+		<!--<script src="js/mui.min.js"></script>-->
+		<script src="js/common.js"></script>
+		<script type="text/javascript" src="js/jquery.uiAlertView-1.0.0.js"></script>
+		<script src="js/personal-photo.js"></script>
+	</body>
+
+</html>

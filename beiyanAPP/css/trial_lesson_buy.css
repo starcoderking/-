@@ -1,0 +1,172 @@
+.top-info{
+	padding:.2rem .3rem;
+	border-bottom: 8px solid #f8f8f8;
+}
+.top-info>div img{
+	float:left;
+	width: 25%;
+	margin-bottom: 10px;
+}
+.top-info>div div{
+	float: left;
+	padding:.1rem;
+	width: 75%;
+}
+.top-info>div div p{
+	float: right;
+	margin-top:.6rem;
+}
+.top-info>div div p span{
+	font-size: .6rem;
+	color:#f00;
+}
+.top-info>div>p{
+	line-height: .5rem;
+	clear: both;
+}
+.top-info>div>p em{
+	font-size:.3rem;
+	margin-left: 5px;
+	color: #666;
+}
+.top-info>div>p span{
+	padding-right: .1rem;
+}
+.studentInfo{
+	padding-bottom:.4rem;
+	border-bottom: 8px solid #f8f8f8;
+}
+.studentInfo h3{
+	border-bottom: 1px solid #eee;
+	padding:.3rem;
+}
+.studentInfo ul li{
+	height: 1rem;
+	padding:.3rem;
+	padding-bottom: 0;
+	overflow: hidden;
+}
+.studentInfo ul li span{
+	float: left;
+	color:#a9a9a9;
+}
+.studentInfo ul li i{
+	float:right;
+	font-size: 14px;
+	color: #999;
+}
+.studentInfo ul li select{
+	width: 1.3rem;
+	float:right;
+	font-size:.3rem;	
+}
+input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea{padding:0px;}
+.add-student{
+	float: right;
+    color: #F39702;
+    font-size: .3rem;
+}
+
+
+
+
+
+
+
+.order-detail{
+	padding-bottom:.4rem;
+	border-bottom: 8px solid #f8f8f8;
+}
+.order-detail h3{
+	border-bottom: 1px solid #eee;
+	padding:.3rem;
+	margin-top: .1rem;
+}
+.order-detail ul li{
+	height: 1rem;
+	padding:.3rem;
+	padding-bottom: 0;
+	overflow: hidden;
+	border-bottom: 1px solid #F9F9F9;
+}
+.order-detail ul li span{
+	float: left;
+	color:#a9a9a9;
+}
+.order-detail ul li i{
+	float:right;
+	font-size: 14px;
+	color: #999;
+}
+.order-detail ul li em{
+	float:right;
+	font-size:.3rem;
+	padding-right: .2rem;
+}
+.order-detail ul li select{
+	width: 5rem;
+	direction: rtl;
+    float: right;
+    font-size: .3rem;
+    border: 0;
+    margin: 0;
+}
+.pay h3{
+	border-bottom: 1px solid #eee;
+	padding:.3rem;
+}
+.pay ul li{
+	padding-bottom: 0;
+	overflow: hidden;
+	border-bottom: 1px solid #eee;
+	width: 92%;
+	margin: 0px auto;
+}
+.pay ul li i.icon-weixinzhifu{
+	float:left;
+	color:#47ab3a;
+	font-size: .5rem;
+}
+.pay ul li i.icon-umidd17{
+	float:left;
+	color:#009fe8;
+	font-size: .6rem;
+}
+.pay ul li:last-child b{
+	color:#029fe4;
+}
+.pay ul li span{
+	float: left;
+	padding-left:.1rem;
+	color:#a9a9a9;
+}
+.pay ul li input{
+	float: right;
+}
+.pay button{
+	margin: .8rem auto;
+    width: 90%;
+    display: block;
+    background: -webkit-linear-gradient(120deg, #f39702, #ed7137); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(120deg, #f39702, #ed7137); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(120deg, #f39702, #ed7137); /* Firefox 3.6 - 15 */
+  background: linear-gradient(120deg, #f39702, #ed7137); /* 标准的语法 */
+    height: 1rem;
+    line-height: 1rem;
+    color: #fff;
+    border: none;
+}
+.mui-checkbox input[type=checkbox], .mui-radio input[type=radio]{right:5px}
+.mui-input-row label{padding: 11px 5px;}
+/*十元课样式*/
+.lesson-img img {
+	width: 100%;
+	/*height: 5rem;*/
+}
+.lesson-list {width: 92%;margin:0 auto;overflow: hidden;text-align: center;color: #999;border: 1px solid #ddd;}
+.lesson-list tr{border-bottom: 1px solid #eee;}
+.lesson-list th,.lesson-list td{line-height: 24px;font-size: 12px;text-align: center;}
+.lesson-list th{color: #666;}
+table,tr,td,th{
+	border: 1px solid #ddd;
+}

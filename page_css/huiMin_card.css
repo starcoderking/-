@@ -1,0 +1,107 @@
+.huiCard_top{
+	height: 105px;
+	margin: 10px 0;
+	background: url(../img/hui_top.png) no-repeat center center;
+	background-size: 100% 100%;
+}
+.content{
+	padding: 10px;
+	overflow: hidden;
+}
+.content>img{
+	float: left;
+	margin-left:  10px;
+	margin-right:  10px;
+	margin-top: 60px;
+}
+.content .card_detail{
+	float: left;
+	width:60%;
+	/*height: 240px;
+	position: relative;*/
+	overflow: hidden;
+}
+.content .card_detail h2{
+	font-size: 24px;
+	color: #F39702;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.content .card_detail p{
+	/*padding: 20px;*/
+	font-size: 16px;
+	color:#999;
+	text-indent: 28px;
+	text-align: justify;
+}
+.content .card_detail span{
+   /* position: absolute;
+    bottom: 15px;
+    left: 15px;*/
+    font-size:16px;
+    color: #666;
+    float: left;
+}
+.content .card_detail span b{
+	margin: 0px 3px;
+    font-size: 30px;
+    color: #ff5400;
+    font-family: arial;
+}
+.content .card_detail button{
+	/*position: absolute;
+	right:0;
+	bottom:0;*/
+	width: 130px;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	color:#fff;
+	border:0;
+	outline: 0;
+	background: #F39702;
+	cursor: pointer;
+	float: right;
+}
+.huiCard_foot{
+	height:444px;
+	background: url(../img/hui_footer.jpg) no-repeat center center;
+	background-size: 100% 100%;
+}
+.pay_way{
+    width: 156px;
+    position: absolute;
+    right: 250px;
+    top: -30px;
+}
+.pay_way li{
+	padding-left: 5px;
+	overflow: hidden;
+}
+.pay_way li b{
+	color: #41b035;
+    font-size: 18px;
+    padding-right: 5px;
+    float: left;
+    vertical-align: middle;
+}
+.pay_way li:last-child b{
+	color: #009fe8;
+}
+.pay_way li span{
+	vertical-align: middle;
+    font-size: 14px;
+}
+.pay_way li div{
+	float: right;
+}
+.radio{
+	width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: inline-block;
+    background: url(../img/icon_unselect.png) no-repeat;
+}
+.radioSel{
+	background: url(../img/icon_select.png) no-repeat;
+}

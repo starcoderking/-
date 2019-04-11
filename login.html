@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>登录</title>
+		<link rel="stylesheet" href="page_css/simplepop.css" />
+		<link rel="stylesheet" href="page_css/common.css" />
+		<link rel="stylesheet" href="page_css/iconfont.css" />
+		<link rel="stylesheet" href="page_css/login.css" />
+		<script src="page_js/jquery-1.4.1.min.js"></script>
+		<script src="page_js/simplepop.js"></script>
+		<script src="page_js/common.js"></script>
+		<script src="page_js/login.js"></script>
+	</head>
+	<body>
+		<!--header-->
+		<header class="header_box"></header>
+		<div class="container">
+			<div class="register">
+				<img src="img/login_bg.png" alt="" />
+				<div class="reg_form">
+					<h2>登录</h2>
+					<ul>
+						<li>
+							<input type="text" id="uname" placeholder="请输入用户名/手机号" />
+							<em class="icon iconfont icon-wode2"></em>
+							<i></i>
+						</li>
+						<li>
+							<input type="password" id="upwd" placeholder="请输入密码" />
+							<em class="icon iconfont icon-mima"></em>
+							<i></i>
+						</li>
+						<li>
+							<span>验证码：</span>
+							<input type="text" id="vcode" placeholder="请输入验证码" />
+							<em class=""></em>
+							<img title="看不清楚，换一张" src="" onclick="reloadVerifyCode(this);" style="cursor:hand;" id="captcha_img" />
+							<i></i>
+						</li>
+						<li id="choice_login_way">
+							<input type="radio" name="login" value="1" />春雨艺术教育登录
+							<input type="radio" name="login" checked="checked" value="2" />天津演艺网登录
+						</li>
+						<li class="li_btn">
+							<button type="button">登 录</button>
+						</li>
+						<li class="login">
+							<a class="reg" href="register.html">立刻注册</a>
+							<a href="forget.html">忘记密码</a>
+						</li>
+					</ul>
+					<!--<div class="fastLogin">
+						<div class="fastTitle"><span>第三方登录</span></div>
+						<ul>
+							<li><span class="icon iconfont icon-weixin" title="微信登录"></span></li>
+							<li><span class="icon iconfont icon-qq" title="QQ登录"></span></li>
+						</ul>
+					</div>-->
+				</div>
+			</div>
+		</div>
+		<div class="mask none"></div>
+		<div class="mask_content none">
+			<h3>提示信息</h3>
+			<div>是否同意使用天津演艺网账户同步登录,如有疑问请拨打客服电话022-88268560</div>
+			<button class="yes">是</button>
+			<button class="no">否</button>
+		</div>
+		<!--footer-->
+		<footer class="footer"></footer>
+	</body>
+</html>

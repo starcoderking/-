@@ -1,0 +1,176 @@
+/*关于我们*/
+.about_title{width: 550px;height: 80px;background: url(../img/titleBg.png) no-repeat;margin: 10px auto;line-height: 75px;font-size: 20px;color: #fff;text-align: center;font-family: "微软雅黑";font-weight: 600;}
+.about_mes{width: 1200px;overflow: hidden;margin: 0px auto 20px auto;}
+.about_mes p{line-height: 30px;text-indent: 30px;font-size: 14px;text-align: justify;color: #999;}
+.about_show{width: 1200px;margin: 10px auto;}
+.about_contact{width: 1200px;height: 530px;/*background: url(../img/contentBg.jpg) no-repeat;*/margin: 10px auto;}
+.contact_bg{width: 320px;
+    height: 499px;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-left: 100px;
+    padding: 0px 20px;
+    position: absolute;
+    z-index: 100;
+}
+.contact_name{width: 350px;height: 40px;line-height: 40px;color: #162b6c;font-size: 18px;font-weight: 600;}
+.contact_list{width: 350px;overflow: hidden;}
+.contact_list li{width: 350px;height: 60px;margin: 10px auto;}
+.contact_icon{height: 60px;margin-right: 5px;float: left;}
+.contact_icon b{font-size: 30px;color: #fb8c1f;}
+.contact_info{height: 60px;float: left;}
+.contact_info p{height: 30px;line-height: 20px;font-size: 18px;color: #999;}
+p.contact_info{font-size: 14px;color: #666;}
+.contact_code{/*width: 90px;height: 90px;padding: 5px;margin-left: 100px;margin-top: 20px;*/text-align: center;}
+.contact_code img{width: 90px;height: 90px;}
+.contact_lable{/*width: 90px;height: 20px;line-height: 20px;*/text-align: center;}
+#loutinav {
+	width: 35px;
+	position: fixed;
+	top: 100px;
+	left: 50px;
+	border: 1px solid #ddd;
+	display: none;
+	
+}
+
+#loutinav ul li {
+	width: 35px;
+	height: 32px;
+	border-bottom: 1px dotted #DDDDDD;
+	list-style: none;
+	font-size: 12px;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+	padding: 10px 0;
+	background: #918888;
+	color: #fff;
+}
+
+#loutinav ul li span {
+	width: 35px;
+	height: 32px;
+	line-height: 16px;
+	padding: 10px 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+
+#loutinav ul li.last {
+	background: #5e4a4a;
+	color: #fff;
+	border-bottom: 1px solid #ddd;
+}
+
+#loutinav ul li.active span {
+	background: #f39702;
+	color: #fff;
+	display: block;
+}
+
+#loutinav ul li:hover span {
+	background: #c00;
+	color: #fff;
+	display: block;
+}
+/*中心简介*/
+.companyBg{width: 1200px;/*height: 340px;*/margin: 20px auto;/*border-bottom: 2px dashed #eb6241; */}
+.companyInfo{width: 540px;height: 340px;float: left;}
+.companyName{width: 308px;height: 30px;margin-left: 20px;float: left;}
+.companyTitle{width: 315px;height: 30px;float: right;margin-top: 20px;}
+.companyMes{width: 550px;overflow: hidden;line-height: 30px;font-family: "微软雅黑";font-size: 14px;color: #333;margin-left: 20px;text-indent: 30px;}
+.companyNote{width: 430px;height: 340px;float: right;margin-right: 30px;}
+.noteBg{width: 260px;height: 40px;line-height: 40px;text-align: center;color: #fff;font-family: "微软雅黑";font-size: 16px;font-weight: 600;background: url(../img/aboutUs_bg.png) no-repeat;margin: 7px 0px;}
+.noteLeft{float: left;margin-left: 50px;}
+.noteRight{float: right;margin-right: 50px;}
+
+.groupBg{width: 1200px;height: 220px;margin: 10px auto 20px auto;}
+.groupImg{width: 550px;height: 180px;float: left;margin-top: 40px;}
+.img01{width: 220px; height: 180px;float: left;background: #ee9009;border-radius:10px ;}
+.img02{width: 220px; height: 180px;float: left;background: #cddb29;border-radius:10px ;margin-left: 60px;}
+.img01 img,.img02 img{width: 210px;height: 170px;margin: 5px;border-radius:10px ;}
+.groupInfo{width: 500px;height: 220px;margin-left: 20px;float: right;margin-right: 50px;}
+.groupName{width: 180px;height: 30px;float: right;margin-bottom: 10px;}
+.groupMes{width: 500px;overflow: hidden;line-height: 30px;font-family: "微软雅黑";font-size: 14px;color: #333;text-indent: 30px;}
+
+.teacherBg{width: 1200px;overflow: hidden;margin:10px auto 20px auto;}
+.tab_menu{width: 1200px;height: 46px;}
+.tab_menu li{width: 140px;height: 46px;line-height: 46px;color: #ee9009;text-align: center;background: url(../img/tab02.png) no-repeat;float:left;cursor: pointer;}
+.tab_menu li.current{color: #fff;background: url(../img/tab01.png) no-repeat;}
+.teacherInfo{width: 1200px;overflow: hidden;margin: 10px auto;}
+.teacherMes{width: 1200px;height:90px;overflow: hidden;text-indent: 30px;font-family: "微软雅黑";font-size: 14px;color: #333;line-height: 20px;}
+.teacherShow{width: 1200px;overflow: hidden;border-top:8px solid #f8f8f8;padding-top: 20px;/*margin-top: 20px;*/}
+.teacherTitle{width: 44px;height: 125px;background: url(../img/titleBg01.png);margin-right: 20px;float: left;}
+.teacherTitles{width: 44px;height: 125px;background: url(../img/titleBg02.png);margin-right: 20px;float: left;}
+.teacherList{float: left;}
+.teacherList li{width: 112px;height: 142px;margin-right: 25px;float: left;}
+.teacherImg{width: 112px;height: 112px;background: url(../img/imgBg.png) no-repeat;}
+.teacherImg img{width: 100px;height: 100px;margin-left:15px;border-radius:50% ;}
+.teacherName{width: 112px;height: 30px;line-height: 30px;text-align: center;font-family: "微软雅黑";font-size: 14px;color: #ee9009;}
+.hide{display: none;}
+/*教育环境*/
+.education_title{width: 550px;height: 80px;background: url(../img/titleBg.png) no-repeat;margin: 10px auto;line-height: 75px;font-size: 20px;color: #fff;text-align: center;font-family: "微软雅黑";font-weight: 600;}
+.education_center{width: 1198px;overflow: hidden;border: 1px solid #eee;margin: 10px auto;}
+.education_video{width: 625px;height: 450px;margin: 10px;float: left;}
+.education_video video{width: 625px;height: 450px;}
+.education_info{width: 500px;float: left;margin-left: 30px;padding:25px 0;}
+.education_name{width: 500px;height: 30px;line-height: 30px;font-size: 16px;font-weight: 600;margin-top: 20px;}
+.education_mes{width: 500px;line-height: 25px;font-size: 14px;text-indent: 30px;text-align: justify;}
+.education_show{width: 1200px;margin: 10px auto;}
+/*荣誉展示列表*/
+.honor_title{width: 550px;height: 80px;background: url(../img/titleBg.png) no-repeat;margin: 10px auto;line-height: 75px;font-size: 20px;color: #fff;text-align: center;font-family: "微软雅黑";font-weight: 600;}
+.honor_list{width: 1200px;overflow: hidden;margin: 0px auto;}
+.honor_list li{width: 220;height: 230px;margin: 5px 10px;float: left;}
+.honor_img{width: 220px;height: 160px;}
+.honor_img img{width: 220px;height: 160px;border-top-left-radius:10px ;border-top-right-radius:10px ;}
+.honor_name{width: 218px;height: 40px;line-height: 40px;color: #f39702;text-align: center;font-size: 14px;font-family: "微软雅黑";border-left:1px solid #eee ;border-right:1px solid #eee ;}
+.honor_more{width: 220px;height: 30px;line-height: 30px;background:  #f39702;color: #fff;text-align: center;font-size: 14px;font-family: "微软雅黑";border-bottom-left-radius:10px ;border-bottom-right-radius:10px ;}
+.honor_list .more{
+	width: 100%;
+	height:50px;
+	background: url(../img/click_more.png) no-repeat center center;
+	border:none;
+	outline: none;
+	margin-top:20px;
+	cursor: pointer;
+}
+
+/*荣誉展示详情*/
+.video{width: 790px;height: 580px;border: 1px solid #eee;margin: 10px auto;}
+.video video{width: 750px;height: 540px;margin: 20px;}
+.line{width: 1200px;height: 10px;background: #f8f8f8;margin: 20px auto;}
+.honor_mes{width:1200px;overflow: hidden;line-height: 30px;text-indent: 30px;margin: 0px auto 20px auto;}
+/*地图*/
+.contact{
+	position: relative;
+    min-height: 595px
+}
+.contact .about_contact{
+    position: absolute;
+    top: 80px;
+    left: 70px;
+    z-index: 100;
+    width: 330px;
+    height: 500px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    background: #fff;
+}
+#mapContent{
+	position: absolute;
+	top: 90px;
+	left: 0;
+	width: 100%;
+	height:500px;
+}
+
+
+
+
+

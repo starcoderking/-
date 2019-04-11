@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>课程详情</title>
+		<link rel="stylesheet" href="page_css/simplepop.css" />
+		<link rel="stylesheet" href="page_css/common.css" />
+		<link rel="stylesheet" href="page_css/iconfont.css" />
+		<link rel="stylesheet" href="page_css/course_detail.css" />
+		<script src="page_js/jquery-1.4.1.min.js"></script>
+		<script src="page_js/common.js"></script>
+		<script src="page_js/simplepop.js"></script>
+		<script src="page_js/course_detail.js"></script>
+	</head>
+	<body>
+		<!--header-->
+		<header class="header_box"></header>
+		<div class="container">
+			<div id="position"><b>位置：</b><a href="index.html">首页&nbsp;></a><a href="featuresCourse.html">选课报课&nbsp;></a><a href="#" class="curCourseName"></a></div>
+			<div class="course_info clearfloat">
+				<img src="img/course02.png" alt="" />
+				<div class="info">
+					<h2></h2>
+					<ul>
+						<li>课程教师：<span id="coursetteacher"></span></li>
+						<li>每课时间：<span id="authorized"></span></li>
+						<li>专业名称：<span id="specialtyname"></span></li>
+						<li>总课时长：<span id="totalHours"></span></li>
+						<li>开课日期：<span id="courseopendata"></span></li>
+						<li>年龄范围：<span id="agerange"></span></li>
+						<li>招生人数：<span id="studentnum"></span></li>
+						<li>课程价格：<b>￥</b><span class="cost" id="cost"></span></li>
+						<li>校区名称：<span id="schoolarea"></span></li>
+					</ul>
+					<p>
+						学员要求：<span id="requirement"></span>
+					</p>
+					<!-- <p>
+						结业说明：<span id="endexplain"></span>
+					</p> -->
+					<div>
+						<button id="enroll">立即报名</button>
+						<button class="none" id="order">立即预约</button>
+					</div>
+				</div>
+				
+			</div>
+			<div class="course_detail">
+				<span class="courseTitle">校区地址</span>
+				<div class="schoolAdress">
+					
+				</div>
+				<span class="courseTitle">选择班级</span>
+				<div class="grade">
+					<ul>
+						<!--<li class="gradeSelect">一年1班</li>
+						<li>一年2班</li>
+						<li>一年3班</li>
+						<li>一年4班</li>-->
+					</ul>
+				</div>
+				
+				<span class="courseTitle">课程表</span>
+				<div class="schedule ">
+					<ul>
+						<!--<li>
+							<b>1</b>
+							<span>11月1日</span>
+							<span>fsadfsf</span>
+							<span>asfdsaf</span>
+						</li>
+						<li>
+							<b>2</b>
+							<span>11月1日</span>
+						</li>
+						<li>
+							<b>3</b>
+							<span>11月1日</span>
+						</li>
+						<li>
+							<b>4</b>
+							<span>11月1日</span>
+						</li>
+						<li>
+							<b>5</b>
+							<span>11月1日</span>
+						</li>
+						<li>
+							<b>6</b>
+							<span>11月1日</span>
+						</li>
+						<li>
+							<b>7</b>
+							<span>11月1日</span>
+						</li>
+						<li>
+							<b>8</b>
+							<span>11月1日</span>
+						</li>
+						<li>
+							<b>9</b>
+							<span>11月1日</span>
+						</li>
+						<li>
+							<b>10</b>
+							<span>11月1日</span>
+						</li>-->
+					</ul>
+				</div>
+				<span class="courseTitle">课程详情</span>
+				<div class="detail" id="coursecount">
+					<!--<p>面孔了世纪东方啊啊记录卡福建安防发进来否价格啊，季卡时代峻峰暗精灵卡惊世毒妃啊。好卡手机积分换案例金坷垃多少积分；加速对方爱看佛教大赛发，交多少分啊发酵饲料大姐夫。</p>
+					<p>面孔了世纪东方啊啊记录卡福建安防发进来否价格啊，季卡时代峻峰暗精灵卡惊世毒妃啊。好卡手机积分换案例金坷垃多少积分；加速对方爱看佛教大赛发，交多少分啊发酵饲料大姐夫。</p>
+					<p>面孔了世纪东方啊啊记录卡福建安防发进来否价格啊，季卡时代峻峰暗精灵卡惊世毒妃啊。好卡手机积分换案例金坷垃多少积分；加速对方爱看佛教大赛发，交多少分啊发酵饲料大姐夫。</p>
+					<p>面孔了世纪东方啊啊记录卡福建安防发进来否价格啊，季卡时代峻峰暗精灵卡惊世毒妃啊。好卡手机积分换案例金坷垃多少积分；加速对方爱看佛教大赛发，交多少分啊发酵饲料大姐夫。</p>
+					<ul class="">
+						<li><img src="img/course_detail01.png" alt="" /></li>
+						<li><img src="img/course_detail02.png" alt="" /></li>
+						<li><img src="img/course_detail03.png" alt="" /></li>
+					</ul>-->
+				</div>
+			</div>
+		</div>
+		<div class="mask" id="dialog">
+			<div class="dialogBg">
+				<div class="dialogTitle"><em>提示</em><span id="close"></span></div>
+				<div class="dialogBox"><textarea id="remark" maxlength="100"></textarea></div>
+				<div class="dialogBtn">
+					<div class="btnBg01" id="submit">提交</div>
+					<div class="btnBg02" id="cancel">取消</div>
+				</div>
+			</div>
+		</div>
+		<!--footer-->
+		<div class="footer"></div>
+	</body>
+</html>

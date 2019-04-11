@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>个人中心</title>
+		<link rel="stylesheet" href="page_css/iconfont.css" />
+		<link rel="stylesheet" href="page_css/kkpager_orange.css" />
+		<link rel="stylesheet" href="page_css/simplepop.css" />
+		<link rel="stylesheet" href="page_css/common.css" />
+		<link rel="stylesheet" href="page_css/personal_center.css" />
+		<!--<script src="page_js/jquery-1.4.1.min.js"></script>-->
+		<script src="page_js/jquery-1.11.3.js"></script>
+		<!--<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>-->
+		<script language="javascript" type="text/javascript" src="page_js/My97DatePicker/WdatePicker.js"></script>
+		<script src="page_js/jquery.form.js"></script>
+		<script src="page_js/kkpager.min.js"></script>
+		<script src="page_js/simplepop.js"></script>
+		<script src="page_js/common.js"></script>
+		<script src="page_js/personal_center.js"></script>
+	</head>
+
+	<body>
+		<!--header-->
+		<header class="header_box"></header>
+		<div class="container">
+			<div class="center">
+				<div class="nav">
+					<div class="user_info">
+						<img src="img/personal_avatar.png" alt="" />
+						<p class="uname">
+							<!--张伟-->
+						</p>
+						<!--<p class="uid">ID： 123456789</p>
+						<p class="uintegral">积分： 125分</p>-->
+					</div>
+					<ul>
+						<li class="current"><b class="icon iconfont icon-gerenxinxi"></b><span>个人信息</span><i class="icon iconfont icon-arrow-right"></i></li>
+						<li><b class="icon iconfont icon-xiugaimima"></b><span>修改密码</span><i class="icon iconfont icon-arrow-right"></i></li>
+						<li><b class="icon iconfont icon-student"></b><span>学员信息</span><i class="icon iconfont icon-arrow-right"></i></li>
+						<li><b class="icon iconfont icon-kechengbiao"></b><span>我的课程表</span><i class="icon iconfont icon-arrow-right"></i></li>
+						<li><b class="icon iconfont icon-wodedingdan"></b><span>我的订单</span><i class="icon iconfont icon-arrow-right"></i></li>
+						<li><b class="icon iconfont icon-xiaoxi"></b><span>我的消息</span><i class="icon iconfont icon-arrow-right"></i></li>
+						<li><b class="icon iconfont icon-youhuiquan"></b><span>我的优惠券</span><i class="icon iconfont icon-arrow-right"></i></li>
+						<li><b class="icon iconfont icon-youhuiquan"></b><span>我的惠民卡</span><i class="icon iconfont icon-arrow-right"></i></li>
+						<li><b class="icon iconfont icon-icon_yonghuzhinan"></b><span>新用户指南</span><i class="icon iconfont icon-arrow-right"></i></li>
+					</ul>
+				</div>
+				<div class="detail">
+					<!--个人信息-->
+					<div class="personal_info">
+						<h1><span>个人信息</span><!--<button class="edit">编辑</button>--></h1>
+						<div>
+							<form action="" enctype="multipart/form-data" method="post" id="formImg">
+								<img id="imghead" name="imghead1" src="img/photo_icon.png" alt="" title="点击进行头像更改" onclick="$('#previewImg').click();" />
+								<input type="file" onchange="previewImage(this)" id="previewImg" name="topimageurl" />
+								<input type="hidden" value="" name="userid" id='userid' />
+							</form>
+							<p class="edit_avatar none">点击头像进行编辑</p>
+							<ul>
+								<li><span><b>*</b>用户名</span><input id="nickname" type="text" placeholder="请输入以字母开头的5-20位用户名"/></li>
+								<li><span><b>*</b>姓名</span><input id="name" type="text" /></li>
+								<li><span><b>*</b>联系电话</span><input id="phone" type="text" /></li>
+								<li><span>家庭住址</span><input id="address" type="text" /></li>
+							</ul>
+							<button class="edit">编辑</button>
+							<button class="save none">保存</button>
+						</div>
+					</div>
+					<!--修改密码-->
+					<div class="changePwd none">
+						<h1><span>修改密码</span></h1>
+						<div>
+							<ul>
+								<li>
+									<em>原始密码：</em>
+									<input type="text" id="oldPwd" placeholder="请输入原始密码" />
+									<i></i>
+								</li>
+								<li>
+									<em>新的密码：</em>
+									<input type="password" id="upwd" placeholder="请输入新密码" />
+									<i></i>
+								</li>
+								<li>
+									<em>确认密码：</em>
+									<input type="password" id="upwd2" placeholder="请再次确认密码" />
+									<i></i>
+								</li>
+							</ul>
+							<button class="save">保存</button>
+						</div>
+					</div>
+					<!--学员信息-->
+					<div class="student_info none">
+						<h1><span>学员信息</span><!--<button class="edit">编辑学员信息</button>--><button class="del_student">删除学员</button><button class="add_student">添加学员</button></h1>
+						<ul class="students_list">
+							<!--<span class="cur">张楠</span>
+							<span>张淼</span>-->
+						</ul>
+						<div>
+							<ul>
+								<li><span><b>*</b>姓名</span><input type="text" id="membername" /></li>
+								<li><span><b>*</b>性别</span>
+									<select id="choice_sex">
+										<option value="1">男</option>
+										<option value="2">女</option>
+									</select>
+								</li>
+								<li><span><b>*</b>生日</span><input class="Wdate" type="text" onClick="WdatePicker()"></li>
+								<li><span>学校</span><input type="text" id="school" /></li>
+								<li><span>兴趣爱好</span><input type="text" id="like" /></li>
+							</ul>
+							<button class="edit">编辑</button>
+							<button class="save none">保存</button>
+						</div>
+					</div>
+					<!--我的课程表-->
+					<div class="schedule none">
+						<h1><span>我的课程表</span></h1>
+						<div class="studentSel">
+							<div>
+								<select id="student" <!--onchange="studentSel()" <-->
+									<option value="">请选择学员</option>
+								</select>
+								<label>请选择学员</label>
+								<input type="hidden" id="yearsMonth" />
+								<!--<input type="hidden" id="yearsMonth" />-->
+							</div>
+							<ul class="student_course">
+								<table>
+									<thead>
+										<tr>
+											<th>班级编号</th>
+											<th>班级名称</th>
+											<th>课程名称</th>
+											<th>开课日期</th>
+											<th>结课日期</th>
+										</tr>
+									</thead>
+									<tbody>
+										<!--<tr><td>26</td><td>舞蹈基础班</td><td>15人</td><td>2017-12-11</td><td>20</td></tr>
+										<tr><td>26</td><td>舞蹈基础班</td><td>15人</td><td>2017-12-11</td><td>20</td></tr>
+										<tr><td>26</td><td>舞蹈基础班</td><td>15人</td><td>2017-12-11</td><td>20</td></tr>
+										<tr><td>26</td><td>舞蹈基础班</td><td>15人</td><td>2017-12-11</td><td>20</td></tr>
+										<tr><td>26</td><td>舞蹈基础班</td><td>15人</td><td>2017-12-11</td><td>20</td></tr>
+										<tr><td>26</td><td>舞蹈基础班</td><td>15人</td><td>2017-12-11</td><td>20</td></tr>
+										<tr><td>26</td><td>舞蹈基础班</td><td>15人</td><td>2017-12-11</td><td>20</td></tr>
+										<tr><td>26</td><td>舞蹈基础班</td><td>15人</td><td>2017-12-11</td><td>20</td></tr>
+										<tr><td>26</td><td>舞蹈基础班</td><td>15人</td><td>2017-12-11</td><td>20</td></tr>
+										<tr><td>26</td><td>舞蹈基础班</td><td>15人</td><td>2017-12-11</td><td>20</td></tr>
+										<tr><td>26</td><td>舞蹈基础班</td><td>15人</td><td>2017-12-11</td><td>20</td></tr>
+										<tr><td>26</td><td>舞蹈基础班</td><td>15人</td><td>2017-12-11</td><td>20</td></tr>
+										<tr><td>26</td><td>舞蹈基础班</td><td>15人</td><td>2017-12-11</td><td>20</td></tr>-->
+									</tbody>
+								</table>
+							</ul>
+						</div>
+						<div class="scheduleBg">
+							<div class="scheduleBox" id="content"></div>
+							<!--用来显示课程表的详细信息-->
+							<!--<div class="dialogBox">
+								<ul>
+
+								</ul>
+							</div>-->
+
+						</div>
+						<!--用来显示课程表的详细信息-->
+						<div class="dialogBox">
+							<ul>
+
+							</ul>
+						</div>
+						<!--<ul class="status">
+							<li>
+								<h2>舞蹈表演<span>未开始</span></h2>
+								<div>
+									<img src="img/course02.png" alt="" />
+									<div>
+										<p><em class="icon iconfont icon-1"></em><span>李娜</span></p>
+										<p><em class="icon iconfont icon-shizhong"></em><span>8:00-12:00</span></p>
+										<p><em class="icon iconfont icon-diliweizhi"></em><span>天津市河西区平山道43号</span></p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<h2>舞蹈表演<span>未开始</span></h2>
+								<div>
+									<img src="img/course01.png" alt="" />
+									<div>
+										<p><em class="icon iconfont icon-1"></em><span>李娜</span></p>
+										<p><em class="icon iconfont icon-shizhong"></em><span>8:00-12:00</span></p>
+										<p><em class="icon iconfont icon-diliweizhi"></em><span>天津市河西区平山道43号</span></p>
+									</div>
+								</div>
+							</li>
+						</ul>-->
+					</div>
+					<!--我的订单-->
+					<div class="my_order none">
+						<h1><span>我的订单</span></h1>
+						<div class="order_list">
+							<ul>
+								<!--<li>
+									<h1><b>订单账号：</b>123456 <b>购买时间：</b>2017-11-11 12:20:13 <em><b>状态：</b>已付费</em></h1>
+									<div>
+										<img src="img/course02.png" alt="" />
+										<div class="middle">
+											<h3>舞蹈提高班</h3>
+											<ul>
+												<li><span>班级名称:</span>鼓舞班</li>
+												<li><span>专业名称:</span>曲艺类</li>
+												<li><span>学员姓名:</span>李娜</li>
+												<li><span>开课时间:</span>2011-11-11</li>
+												<li><span>上课教室:</span>艺术室</li>
+												<li><span>上课校区:</span>河西校区</li>
+											</ul>
+										</div>
+										<div class="right">
+											<p><span>购买数量：</span>X1</p>
+											<p><span>订单金额：</span>￥1000</p>
+											<a href="">去支付</a>
+										</div>
+									</div>
+								</li>-->
+							</ul>
+						</div>
+						<div id="kkpager"></div>
+					</div>
+					<!--我的消息-->
+					<div class="message none">
+						<h1><span>私信聊天</span></h1>
+						<!--<ul class="clearfloat">
+							<li class="cur">通知</li>
+							<li>私信</li>
+						</ul>-->
+						<div class="notice">
+							<ul class="notice_list">
+								<li>
+									<img src="img/weixin.png" alt="" class="avatar" />
+									<b class="courseName">舞蹈班</b>
+									<span class="unread">99+</span>
+								</li>
+							</ul>
+							<div class="notice_detail none">
+								<div class="chatName">舞蹈班<span class="back" id="back1" title="返回"></span></div>
+								<ul>
+									<li>
+										<div class="chatPhoto"><img src="img/weixin.png"><span class="chatSign">2</span></div>
+										<div class="chatInfo">
+											<div class="chatNote"><b>张老师</b><span>2017-11-11 11:11</span></div>
+											<div class="chatMes">聊天内容</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="private_letter none">
+							<div class="chatName"><b></b><span class="back" id="back2" title="返回"></span></div>
+							<ul>
+								<!--<li>
+									<img src="img/weibo.png" alt="" />
+									<p>你的孩子表现很好。</p>
+								</li>
+								<li class="me">
+									<img src="img/weibo.png" alt="" />
+									<p>谢谢老师夸奖。nasjif hakfjkasfh 你卡疯了啥开始就 发解放大丽萨大姐夫打死了开发大家是否阿斯蒂芬接口类啊啊建设路口打飞机家酸辣粉。</p>
+								</li>-->
+							</ul>
+							<div class="text">
+								<!--<span>+</span>-->
+								<textarea name="" rows="" cols="" id="textMessage"></textarea>
+								<button>发送</button>
+							</div>
+							<a href="javascript:;" class="getMore">查看更多历史消息</a>
+						</div>
+					</div>
+					<!--我的优惠券-->
+					<div class="coupon none">
+						<h1><span>我的优惠券</span></h1>
+						<table>
+							<thead>
+								<tr>
+									<th>优惠券编号</th>
+									<th>充值金额</th>
+									<th>抵用金额</th>
+									<th>有效期</th>
+								</tr>
+							</thead>
+							<tbody></tbody>
+						</table>
+					</div>
+					<!--我的惠民卡-->
+					<div class="huiminCard none">
+						<h1><span>我的惠民卡</span></h1>
+						<table>
+							<thead>
+								<tr>
+									<th>惠民卡编号</th>
+									<th>充值金额</th>
+									<th>抵用金额</th>
+									<th>有效期</th>
+								</tr>
+							</thead>
+							<tbody></tbody>
+						</table>
+					</div>
+					<!--新用户指南-->
+					<div class="guide none">
+						<h1><span>新用户指南</span></h1>
+						<div class="guide_list">
+							<!--<div class="guide_title">为什么要求家长听课？</div>-->
+							<div class="guide_msg">
+								<p>1、学员入学前须认真填写《北方演艺集团艺术教育中心入学注册协议》并由家长签字确认。
+								</p>
+								<p>2、学生必须严格遵守艺术教育中心的规章制度。
+								</p>
+								<p>3、如有事不能按时到校，须提前向任课老师或者教务老师请假，原则上没有按时到校参加培训的学员学校将不安排补课，不退学费；
+								</p>
+								<p>4、为保证教学质量及课堂纪律，学生开始上课后家长必须离开教室，期间家长不得随意进入教室；
+								</p>
+								<p>5、爱惜培训中心的公共财产，损坏或丢失需照价赔偿。
+
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--用来显示课程表的详细信息-->
+			<!--<div class="dialog none">
+				<div class="dialogBox">
+					<div class="dialogName"><span class="close"></span></div>
+					<ul class="dialogTitle">
+						<li>
+							<span style="width: 10%;">课程</span>
+							<span style="width: 10%;">班级</span>
+							<span style="width: 10%;">教室</span>
+							<span style="width: 30%;">地址</span>
+							<span style="width: 40%;">时间</span>
+						</li>
+					</ul>
+					<ul class="dialogInfo">
+						
+					</ul>	
+				</div>
+			</div>-->
+		</div>
+		<!--footer-->
+		<footer class="footer"></footer>
+		<div class="mask none"></div>
+		<div class="dialog none">
+			<h3>消息</h3>
+			<div>您确定要删除学员么？</div>
+			<button class="sure">确定</button>
+			<button class="cancel">取消</button>
+		</div>
+	</body>
+
+</html>

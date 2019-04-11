@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/transaction-detail.css"/>
+		<script type="text/javascript" src="js/flexible_css.debug.js"></script>
+		<script type="text/javascript" src="js/flexible.debug.js"></script>
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">交易详情</h1>
+		</header>
+		<div class="mui-content">
+			<h2><span><i class="iconfont icon-xuanzhong"></i></span><b>订单支付中！</b></h2>
+			<div class="titleBg">订单信息</div>
+			<ul class="orderInfo">
+				<li><span>购买账户：</span><em id="loginusername"></em></li>
+				<li><span>购买时间：</span><em id="createtime"></em></li>
+				<li><span>购买数量：</span><em id="ordernumber"></em></li>
+				<li><span>应付金额：</span><em id="costmoney"></em></li>
+				<li><span>实付金额：</span><em id="realcost"></em></li>
+			</ul>
+			<div>
+				<button id="backIndex">返回首页</button>
+				<button id="backCourse">课程详情页</button>
+			</div>
+		</div>
+		<script src="js/jquery-1.11.3.js"></script>
+		<!--<script src="js/mui.min.js"></script>-->
+		<script src="js/common.js"></script>
+		<script src="js/transaction-detail.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,162 @@
+.selecteMenu{
+     width: 100%;
+     height: 35px;
+     line-height: 35px;
+     background: #fff;
+     margin-top: 44px;
+     /*border-bottom: 8px solid #f8f8f8;*/
+    z-index: 999;position: fixed;
+}
+.selecteMenu li{
+     width: 100%;
+     float: left;
+     text-align: center;
+     color: #888;
+     font-size: 13px;
+}
+/*.selecteMenu>ul>li{
+	border-bottom: 2px solid #ddd;
+}*/
+.menuBg{
+    width: 100%;
+    background: #fff;
+    z-index: 100;
+    position: absolute;
+    background: #ddd;
+}
+.menuBg li{
+	color:#F39702;
+}
+.none{display: none;}
+#thelist{
+	background: #fff;
+}
+#thelist li{
+	margin: .2rem .3rem;
+    overflow: hidden;
+    padding-bottom: .3rem;
+    border-bottom: 1px solid #ddd;
+}
+#thelist li a>img{
+	float: left;
+    width: 22%;
+    height: 2.5rem;
+}
+#thelist li a>.teacher-intro{
+	padding-left: .1rem;
+	float: left;
+	width: 78%;
+	overflow: hidden;
+}
+#thelist li a>.teacher-intro h3{
+    padding: .1rem 0 .2rem 0;
+    font-size: 14px;
+    color: #666;
+}
+#thelist li a>.teacher-intro p i{
+	color:#F39702;
+}
+#thelist li a>.teacher-intro p b{
+	font-size: .3rem;
+}
+#thelist li a>.teacher-intro .des{
+    font-size: .33rem;
+    text-indent: 24px;
+    line-height: .4rem;
+    color: #ABABAB;
+    text-align: justify;
+    height: 1.25rem;
+    overflow: hidden;
+}
+#show {
+	display: none;
+}
+
+#wrapper {
+	position: absolute;
+	z-index: 1;
+	top: 50px;
+	height: 95%;
+	width: 100%;
+}
+
+#scroller {
+	position: absolute;
+	z-index: 1;
+	/*	-webkit-touch-callout:none;*/
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	width: 100%;
+	padding: 0;
+}
+
+#scroller ul {
+	list-style: none;
+	padding: 0.2rem;
+	margin: 0;
+	width: 100%;
+	text-align: left;
+}
+
+#pullDown,
+#pullUp {
+	background: #fff;
+	height: 40px;
+	line-height: 40px;
+	padding: 5px 10px;
+	border-bottom: 1px solid #ccc;
+	font-weight: bold;
+	font-size: 14px;
+	color: #888;
+	text-align: center;
+}
+#pullUp{
+	margin-bottom: 1rem;
+}
+#pullDown .pullDownIcon,
+#pullUp .pullUpIcon {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	vertical-align: middle;
+	background: url("../images/pull-icon@2x.png") 0 0 no-repeat;
+	-webkit-background-size: 40px 80px;
+	background-size: 40px 80px;
+	-webkit-transition-property: -webkit-transform;
+	-webkit-transition-duration: 250ms;
+}
+
+#pullDown .pullDownIcon {
+	-webkit-transform: rotate(0deg) translateZ(0);
+}
+
+#pullUp .pullUpIcon {
+	-webkit-transform: rotate(-180deg) translateZ(0);
+}
+
+#pullDown.flip .pullDownIcon {
+	-webkit-transform: rotate(-180deg) translateZ(0);
+}
+
+#pullUp.flip .pullUpIcon {
+	-webkit-transform: rotate(0deg) translateZ(0);
+}
+
+#pullDown.loading .pullDownIcon,
+#pullUp.loading .pullUpIcon {
+	background-position: 0 100%;
+	-webkit-transform: rotate(0deg) translateZ(0);
+	-webkit-transition-duration: 0ms;
+	-webkit-animation-name: loading;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes loading {
+	from {
+		-webkit-transform: rotate(0deg) translateZ(0);
+	}
+	to {
+		-webkit-transform: rotate(360deg) translateZ(0);
+	}
+}

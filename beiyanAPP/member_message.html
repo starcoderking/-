@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>消息</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/message.css" />
+		<script src="js/flexible.debug.js"></script>
+		<script src="js/flexible_css.debug.js"></script>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">消息</h1>
+		</header>
+		<div class="chatTitle">私信聊天</div>
+		<div class="chatBox" id="chatClass">
+			<ul class="classList">
+				
+			</ul>
+		</div>
+		
+		<div class="chatBox none" id="chatDetail">
+			<div class="chatName" id="studentName">
+				<b></b><span class="back" id="back" title="关闭"></span>					
+			</div>
+			<div class="chatMore">查看更多历史记录</div>
+			<ul class="chatDialog">
+				<!--<li>
+					<div class="chatImg"><img src="user.jpg"/></div>
+					<div class="corner"></div>
+					<div class="chatContent">聊天内容</div>
+				</li>
+				<li class="my">
+					<div class="chatImg"><img src="user.jpg"/></div>
+					<div class="cornermy"></div>
+					<div class="chatContent">聊天内容</div>
+				</li>-->
+			</ul>
+			<div class="chatInput">
+				<div class="chatTextarea">
+					<textarea id="chatTextarea"></textarea>
+				</div>
+				<div class="chatSubmit" id="chatSubmit">发送</div>
+			</div>
+		</div>
+		
+		<!--<div class="mesDialog none">
+			<div class="mesBox">
+				<div class="close" id="close2"></div>
+				<div class="mesTextarea">
+					<textarea id="mesTextarea"></textarea>
+				</div>
+				<div class="mesSubmit" id="mesSubmit">发送</div>
+			</div>
+		</div>-->
+		
+		<div class="imgDialog none">
+			<div class="imgBox">
+				<div class="close" id="close1"></div>
+				<div class="imgPic"><img id="imgPic" /></div>
+			</div>
+		</div>
+		
+		<input type="hidden" id="studentPhoto"/>
+		<input type="hidden" id="teacherPhoto"/>
+		<input type="hidden" id="studentId" />
+		<input type="hidden" id="teacherId" />
+		<input type="hidden" id="studentName" />
+		<input type="hidden" id="lastTime" />
+		
+		
+		<script src="js/jquery-1.11.3.js"></script>
+		<!--<script src="js/mui.min.js"></script>-->
+		<script src="js/common.js"></script>
+		<script src="js/member_message.js"></script>
+	</body>
+</html>

@@ -1,0 +1,9 @@
+/*教育环境*/
+.education_title{width: 550px;height: 80px;background: url(../img/titleBg.png) no-repeat;margin: 10px auto;line-height: 75px;font-size: 20px;color: #fff;text-align: center;font-family: "微软雅黑";font-weight: 600;}
+.education_center{width: 1198px;overflow: hidden;border: 1px solid #eee;margin: 10px auto;}
+.education_video{width: 625px;height: 450px;margin: 10px;float: left;}
+.education_video video{width: 625px;height: 450px;}
+.education_info{width: 500px;float: left;margin-left: 30px;padding:25px 0;}
+.education_name{width: 500px;height: 30px;line-height: 30px;font-size: 16px;font-weight: 600;margin-top: 20px;}
+.education_mes{width: 500px;line-height: 25px;font-size: 14px;text-indent: 30px;text-align: justify;}
+.education_show{width: 1200px;margin: 10px auto;}

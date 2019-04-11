@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>选课报课</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/mescroll.min.css" />
+		<link rel="stylesheet" href="css/iconfont.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/courseList-common.css" />
+		<link rel="stylesheet" href="css/business_hall.css" />
+		<script src="js/flexible.debug.js"></script>
+		<script src="js/flexible_css.debug.js"></script>
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">选课报课</h1>
+		</header>
+		<div class="selecteMenu">
+			<ul>
+				<li id="selected">
+					<span>筛选</span>
+					<i class="iconfont icon-jiaobiao"></i>
+				</li>
+			</ul>
+		</div>
+		<div id="mescroll" class="mescroll">
+			<ul id="courseList">
+				
+			</ul>
+		</div>
+		<div class="selecteBg none">
+			<div class="selecteBox sidebar">
+				<ul class="select">
+					<div class="trigger_click">
+						<li class="select-list">
+							<dl id="select1">
+								<!--<dt><span class="icon iconfont icon-chanpin"></span>科目：</dt>
+								<dd class="select-all selected">全部</dd>
+								<dd>舞蹈</dd>
+								<dd>唱歌</dd>
+								<dd>乐器</a>
+								</dd>
+								<dd>戏剧</dd>
+								<dd>京剧</dd>-->
+							</dl>
+						</li>
+						<li class="select-list" style="display: none;">
+							<dl id="select1-1">
+								<!--<dt>二级：</dt>
+								<dd class="select-all selected">全部</dd>
+								<dd>中国舞</dd>
+								<dd>芭蕾舞</dd>
+								<dd>拉丁舞</dd>-->
+							</dl>
+						</li>
+						<!--<li class="select-list ">-->
+							<!--<dl id="select1-1-1">-->
+								<!--<dt>三级：</dt>
+								<dd class="select-all selected">全部</dd>
+								<dd>中国舞班1</dd>
+								<dd>中国舞班2</dd>-->
+							<!--</dl>-->
+						<!--</li>-->
+					</div>
+
+					<li class="select-list">
+						<dl id="select2">
+							<dt><span class="icon iconfont icon-xueyuan"></span>年龄：</dt>
+							<dd class="select-all selected" data-id='0'>全部</dd>
+							<dd data-id='1'>3-5岁</dd>
+							<dd data-id='2'>6-8岁</dd>
+							<dd data-id='3'>8-10岁</dd>
+							<dd data-id='4'>10岁以上</dd>
+							<input type="number" class="num" />
+							<span class="age">输入学员年龄</span>
+
+						</dl>
+					</li>
+					<li class="select-list">
+						<dl id="select3">
+							<dt><span class="icon iconfont icon-didian"></span>校区：</dt>
+							<dd class="select-all selected">全部</dd>
+							<dd>河西</dd>
+							<dd>和平</dd>
+						</dl>
+					</li>
+					<li class="select-result">
+						<dl>
+							<dt>已选条件</dt>
+							<dd class="select-no">暂时没有选择过滤条件</dd>
+						</dl>
+					</li>
+				</ul>
+				<div class="selectBtn">确定</div>
+			</div>
+		</div>
+		<footer class="footer"></footer>
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/mescroll.min.js"></script>
+		<!--<script type="text/javascript" src="js/jquery-ui.min.js"></script>-->
+		<!--<script type="text/javascript" src="js/jquery.simplesidebar.js"></script>-->
+		<script src="js/common.js"></script>
+		<script src="js/business_hall.js"></script>
+	</body>
+</html>

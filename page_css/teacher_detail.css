@@ -1,0 +1,190 @@
+.content{
+	padding:10px;
+}
+.teacher_intro{
+	overflow: hidden;
+    width: 95%;
+    margin: 20px auto;
+}
+.teacher_intro .avatar{
+	float: left;
+	padding: 20px 35px;
+	border:1px solid #ddd;
+}
+.teacher_intro .avatar>img{
+	width: 200px;
+	height: 227px;
+}
+.teacher_intro .intro{
+	float: right;
+	padding:20px;
+	width: 815px;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+	min-height: 270px;
+}
+.teacher_intro .intro p{
+	color:#666;
+	font-size: 14px;
+	line-height: 30px;
+}
+.teacher_intro .intro p span{
+	color:#484848;
+}
+.teacher_mes{
+	float: left;
+    width: 66%;
+    margin-left: 29px;
+    overflow: hidden;
+    border: 1px solid #ddd;padding: 1%;
+}
+.slidebar{
+	float: left;
+	width: 25%;
+	margin-left: 22px;
+	min-height: 300px;
+	padding: 10px 19px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	overflow: hidden;
+}
+.slidebar ul li{
+	position: relative;
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+.slidebar ul img{
+	width: 255px;
+	vertical-align: bottom;
+}
+.slidebar ul .title{
+	font-size: 16px;
+	color:#666;
+}
+.slidebar ul .info{
+	margin-top: -5px;
+}
+.slidebar ul .info b{
+	float: right;
+	font-size: 20px;
+	color:#F39702;
+}
+.slidebar ul .info b em{
+	font-style: normal;
+	font-size: 14px;
+}
+.state01{
+	position:absolute;
+	left: 0;
+	top:0;
+	/*width: 40px;*/
+	height:26px;
+	padding: 0 5px;
+	background: url(../img/label01.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 1;
+	color:#fff;
+	text-align: center;
+	font-size: 12px;
+}
+.state02{
+	position:absolute;
+	left: 0;
+	top:0;
+	/*width: 40px;*/
+	height:26px;
+	padding: 0 5px;
+	background: url(../img/label02.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 1;
+	color:#fff;
+	text-align: center;
+	font-size: 12px;
+}
+.state03{
+	position:absolute;
+	left: 0;
+	top:0;
+	/*width: 40px;*/
+	height:26px;
+	padding: 0 5px;
+	background: url(../img/label03.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 1;
+	color:#fff;
+	text-align: center;
+	font-size: 12px;
+}
+.state04{
+	position:absolute;
+	left: 0;
+	top:0;
+	/*width: 40px;*/
+	height:26px;
+	padding: 0 3px;
+	background: url(../img/label04.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 1;
+	color:#fff;
+	text-align: center;
+	font-size: 12px;
+}
+.two_code .title{
+	text-align: center;
+}
+.teacher_mes img{max-width: 100%;}
+/*教授的课程*/
+.course{
+	padding:20px 30px;
+	margin-top: 35px;
+	border-top:8px solid #f8f8f8;
+	overflow: hidden;
+}
+.course h2{
+	color:#828282;
+}
+.course ul{
+	padding:10px 35px;
+	overflow: hidden;
+}
+.course ul li{
+	float: left;
+	width: 25%;
+	padding: 5px 10px;
+	box-sizing: border-box;
+}
+.course ul li a{
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+.course ul li a img{
+	width: 250px;
+	height: 190px;
+	display: inherit;
+}
+.course ul li a div{
+	color:#777;
+}
+.course ul li a div p{
+	line-height: 20px;
+}
+.course ul li a div p em{
+	float: right;
+	color:#F39702;
+	font-style: normal;
+	font-size: 20px;
+}
+.course ul li a div p em i{
+	font-style: normal;
+	font-size: 14px;
+}
+.price{
+	text-align: right;
+}
+.price>span{
+	color:#F39702;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: arial;
+}

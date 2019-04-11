@@ -1,0 +1,41 @@
+.ex_student{
+	padding: 30px;
+	min-height: 400px;
+}
+.ex_student>ul{
+	overflow: hidden;
+}
+.ex_student>ul li{
+	float: left;
+	width: 19%;
+    height: 200px;
+    margin: 5px;
+    position: relative;
+    overflow: hidden;
+    /*border: 2px solid #ddd;*/
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.ex_student>ul li a{
+	float: left;
+	width: 100%;
+	height:100%;
+}
+.ex_student>ul li a img{
+	width: 100%;
+}
+.ex_student>ul li a h2{
+	position: absolute;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: #acecee;
+    bottom: -5px;
+    left: 0;
+    opacity: .8;
+}
+#kkpager{
+	width: 70%;
+	margin: 30px auto 0;
+}

@@ -1,0 +1,55 @@
+.container{
+	margin: 50px 0;
+}
+.container ul{
+	padding: 0 .2rem;
+}
+.container ul li{
+	margin-top: .3rem;
+	background: #F9F9F9;
+	border-radius: .2rem;
+	border-top: 4px solid #F39702;
+	overflow: hidden;
+}
+.container ul li>div{
+	padding: .1rem;
+	overflow: hidden;
+	border-bottom: 1px dashed #F39072;
+}
+.container ul li a{
+	color: #F39702;
+	display: block;
+	width: 2.5rem;
+	margin: .2rem auto;
+	padding: .1rem;
+	border: 1px solid #F39702;
+	border-radius: .1rem;
+	text-align: center;
+}
+.container ul li .sum{
+	float: left;
+	width: 30%;
+	text-align: center;
+	padding-top: .5rem;
+}
+.container ul li .coupon-info{
+	float: right;
+	width: 70%;
+}
+.container ul li .sum h3{
+	font-size: .5rem;
+	color: #F39702;
+}
+.container ul li .sum span{
+	color: #F39702;
+	padding: .1rem 0;
+}
+.container ul li .coupon-info{
+	padding-top: .2rem;
+}
+.container ul li .coupon-info p{
+    color: #999;
+    font-size: .4rem;
+    line-height: .6rem;
+    padding-left: .3rem;
+}

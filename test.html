@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>测试</title>
+	</head>
+
+	<body>
+		<button class="pay" style="width: 100px;height: 50px;">h5调取支付</button>
+	</body>
+	<script src="jquery-1.11.3.js"></script>
+	<script>
+		$('.pay').click(function() {
+			$.ajax({
+				type: "post",
+				url: "sysorder/pageOrderClearing_h5.action",
+				async: false,
+				success: function(data) {
+					alert(data);
+					location.href = data;
+				}
+			});
+		})
+	</script>
+</html>

@@ -1,0 +1,166 @@
+.none{
+	display: none;
+}
+.register{
+	padding:30px 10px;
+	overflow: hidden;
+}
+.register>img{
+	float: left;
+	width: 460px;
+	height:460px;
+	margin-top: 15px;
+}
+.register .reg_form{
+	float: right;
+	width: 400px;
+	height:510px;
+	border:1px solid #ddd;
+	padding:10px;
+}
+.register .reg_form h2{
+	text-align: center;
+	color:#F39702;
+}
+.register .reg_form ul{
+	padding:20px 0;
+}
+.register .reg_form ul li{
+	position: relative;
+	padding-top:25px;
+}
+.register .reg_form ul li input{
+	box-sizing: border-box;
+    width: 100%;
+    display: block;
+    padding-left: 45px;
+    height: 38px;
+    border: 1px solid #b5bdca;
+    border-radius: 2px;
+}
+.register .reg_form ul li.ver_code input{
+	width: 67%;
+	display: inline-block;
+}
+.register .reg_form ul li.ver_code button{
+	float: right;
+	width: 30%;
+	height: 38px;
+	background: #F39702;
+	border: 0;
+	outline: 0;
+	color:#fff;
+	border-radius: 2px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+.register .reg_form ul li.ver_code button:disabled{
+	background: #ccc;
+	cursor: default;
+}
+.register .reg_form ul li em{
+    position: absolute;
+    top: 32px;
+    left: 8px;
+    font-size: 25px;
+    color: #e5e5e5;
+}
+.register .reg_form ul li i{
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-style: normal;
+	color:#F39702;
+	display: none;
+}
+.register .reg_form ul .li_checkbox input{
+	width: 15px;
+	height:15px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 5px;
+	padding-left: 0;
+}
+.register .reg_form ul .li_checkbox span a{
+	color:#F39702;
+}
+.register .reg_form ul .li_btn button{
+	width: 100%;
+	height:45px;
+	background: #F39702;
+	color:#fff;
+	border:none;
+	outline: 0;
+	cursor: pointer;
+}
+.register .reg_form ul .login a{
+	position:absolute;
+	top:10px;
+	right:0;
+	color:#F39702;
+	cursor: pointer;
+}
+.register .reg_form ul .li_btn button.disabled{
+	background: #ccc;
+	cursor:default;
+}
+.save button{
+	display: block;
+	width: 100%;
+	background: #F39702;
+	color:#fff;
+	text-align: center;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	height:40px;
+	line-height: 40px;
+	border-radius: 5px;
+	font-size: 16px;
+}
+.mask{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #000;
+	opacity: .75;
+	z-index: 1000;
+}
+.promptInfo{
+	position: fixed;
+	width: 250px;
+	height: 170px;
+	background: #fff;
+	top: 50%;
+	left: 50%;
+	margin-top: -85px;
+	margin-left: -125px;
+	z-index: 1001;
+	border-radius: 3px;
+}
+.promptInfo h3{
+	background: #F39704;
+	padding: 3px 10px;
+	color: #fff;
+}
+.promptInfo p{
+	font-size: 16px;
+	color: #666;
+	text-align: center;
+	margin-top: 40px;
+}
+.promptInfo button{
+	position: relative;
+	left: 190px;
+	bottom: -35px;
+	width: 50px;
+	height: 30px;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	background: #F39702;
+	color: #fff;
+	border-radius: 2px;
+}

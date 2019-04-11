@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<div class="personal_info">
+			<h1><span>个人信息</span><!--<button class="edit">编辑</button>--></h1>
+			<div>
+				<form action="" enctype="multipart/form-data" method="post" id="formImg">
+					<img id="imghead" name="imghead1" src="img/photo_icon.png" alt="" title="点击进行头像更改" onclick="$('#previewImg').click();" />
+					<input type="file" onchange="previewImage(this)" id="previewImg" name="topimageurl" />
+					<input type="hidden" value="" name="userid" id='userid' />
+				</form>
+				<p class="edit_avatar none">点击头像进行编辑</p>
+				<ul>
+					<li><span><b>*</b>用户名</span><input id="nickname" type="text" placeholder="请输入以字母开头的5-20位用户名" /></li>
+					<li><span><b>*</b>姓名</span><input id="name" type="text" /></li>
+					<li><span><b>*</b>联系电话</span><input id="phone" type="text" /></li>
+					<li><span>家庭住址</span><input id="address" type="text" /></li>
+				</ul>
+				<button class="edit">编辑</button>
+				<button class="save none">保存</button>
+			</div>
+		</div>
+	</body>
+
+</html>

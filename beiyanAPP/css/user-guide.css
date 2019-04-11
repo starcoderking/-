@@ -1,0 +1,49 @@
+*{
+     padding:0rem;
+     margin:0rem;
+     font-size:0.4rem;
+     font-family: tahoma, arial, "微软雅黑", \5b8b\4f53, sans-serif;
+}
+ html,body {
+     background:#fff;
+     height: 100%;
+     padding: 0;
+     margin: 0;
+}
+ li{
+     list-style: none;
+}
+ a{
+     text-decoration: none;
+     font-size:.4rem;
+}
+a:hover,a:active{
+	outline: none;
+}
+.clearfloat:after{
+     content: " ";
+     display: table;
+     height: 0;
+     clear:both;
+     visibility: hidden;
+}
+/*.mui-bar{
+	background-color:#11bffe;
+}*/
+.mui-bar .mui-icon{
+	color:#fff;
+}
+.mui-bar .mui-title{
+	color:#fff;
+}
+.mui-content{
+	background-color: #fff;
+	padding:.4rem;
+}
+.mui-content ul li{
+    min-height: .6rem;
+    font-size: .4rem;
+    border-bottom: 1px solid #ddd;
+    color: #b5b5b5;
+    padding: .2rem;
+}

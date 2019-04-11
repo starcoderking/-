@@ -1,0 +1,249 @@
+*{margin:0px; padding:0px; font-size:0.4rem;color:#292F33;font-family: tahoma, arial, "微软雅黑", \5b8b\4f53, sans-serif;}
+body{background: #fff;}
+li{list-style: none;}
+a{text-decoration: none;font-size:0.4rem;}
+html{font-size:16px}
+input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea{
+	height: auto;margin-bottom: 0px;padding: 0px;
+}
+p{margin-bottom: 0px;}
+.loginBg {
+	width: 100%;
+	height: 15rem;
+	background: url(../images/logoBg.jpg) no-repeat;
+}
+
+.logo {
+	width: 6.875rem;
+	height: 9.375rem;
+	margin: 0rem auto;
+}
+
+.logo img {
+	width: 6.875rem;
+	height: 6.875rem;
+	margin-top: 2.5rem;
+}
+
+.tabBox {
+	width: 50%;
+	height: 2rem;
+	text-align: center;
+	float: left;
+	margin-top: 3.625rem;
+}
+.tabBoxs {
+	width: 100%;
+	height: 2rem;
+	text-align: center;
+	float: left;
+	margin-top: 3.625rem;
+}
+.tabBox p,.tabBoxs p {
+	width: 100%;
+	height: 1rem;
+	line-height: 1rem;
+	color: #fff;
+}
+
+.tabBox p i,.tabBoxs p i {
+	font-size: 0.9375rem;
+	line-height: 1.5rem;
+	color: #fff;
+}
+ .page{
+     height: auto;
+     overflow: hidden;
+}
+.page .login-form {
+	/*width:19.6875rem;*/
+	width: 76%;
+	min-height: 13.125rem;
+	margin: 1rem auto;
+}
+ .page .login-form>div{
+     border-bottom: 0.0625rem solid #f39702;
+     padding: 0.9375rem 0 0.625rem 0;
+}
+ .page .login-form>div label{
+     display: inline-block;
+     width: 1.5625rem;
+     height:1.5625rem;
+     vertical-align: middle;
+}
+.page .dfinput {
+	border-bottom: 0.0625rem solid #f39702;
+	padding: 0.9375rem 0 0.625rem 0;
+}
+
+.dfinput i {
+     color: #f39702;
+     font-size: 1.25rem;
+     font-weight: 600;
+}
+
+.page .login-form .dfinput{
+	position: relative;
+}
+.page .login-form .dfinput .send-code{
+     position: absolute;
+     top: 1rem;
+     right: 0;
+     background: none;
+     outline: none;
+     color: #f39702;
+     padding: 0.125rem 0.5rem;
+     border: none;
+     border-left: 0.0625rem solid #f39702;
+     font-size: 12px;
+}
+ 
+ .page .login-form div input{
+     border:none;
+     outline: none;
+     width: 80%;
+     font-size: 0.875rem;
+}
+ .login-form button.save{
+     width: 100%;
+     height:2.5rem;
+     line-height: 2rem;
+     text-align: center;
+     color:#fff;
+     font-size: 0.875rem;
+     background: -webkit-linear-gradient(left, #ffc15c, #f39702);
+	/* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #ffc15c, #f39702);
+	/* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #ffc15c, #f39702);
+	/* Firefox 3.6 - 15 */
+	background: #F39702;
+     border:none;
+     outline: none;
+     border-radius: 1.25rem;
+     margin-top:2rem;
+     
+}
+ .login-form button.disabled{
+     background: -webkit-linear-gradient(left, #d0d0d0, #acacac);
+	/* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #d0d0d0, #acacac);
+	/* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #d0d0d0, #acacac);
+	/* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #d0d0d0, #acacac);
+}
+ .page .login-form .other{
+     text-align: center;
+     padding-top:0.3125rem;
+     border: none;
+}
+ .page .login-form .other i{
+     font-size:0.9375rem;
+     color: #bbb;
+}
+  .page .login-form .other i.checked{
+  	color:#F39702;
+  }
+ .page .login-form .other span{
+     color:#c8c8c8;
+     font-size: 0.8rem;
+}
+ .page .login-form .other span a{
+     color:#f39702;
+}
+ 
+.login-fast {
+    /*width:19.6875rem;
+     */
+     width: 76%;
+     height: 5rem;
+     margin: 10.75rem auto;
+}
+ 
+.loginTitle{
+     width: 100%;
+     height: 1.5rem;
+     line-height:1.5rem;
+     background: url(../images/titleBg.jpg) repeat-x;
+     text-align: center;
+}
+ .loginTitle span{
+     padding: 0rem 0.3125rem;
+     background: #fff;
+     color: #999;
+}
+ .loginMethod{
+     width: 100%;
+     height: 3.5rem;
+}
+ .loginMethod li{
+     width: 33.33%;
+     height: 3.5rem;
+     text-align: center;
+     line-height: 3.5rem;
+     float: left;
+}
+ .loginMethod li i{
+     font-size: 2.5rem;
+}
+ 
+i.icon-QQ{color: #3ab2ee;}
+i.icon-weixin{color: #5bdc78;}
+i.icon-weibo{color: #f4715f;}
+.none{display: none;}
+.mui-bar{
+	background: linear-gradient(120deg, #f39702, #ed7137);
+}
+.mui-bar .mui-title{
+	color:#fff;
+}
+.mui-bar-nav.mui-bar .mui-icon{
+	color:#fff;
+}
+.change{
+	margin-top: 2.5rem;
+}
+.mask{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,.6);
+	z-index: 999;
+}
+.promptInfo{
+	position: fixed;
+    width: 280px;
+    left: 50%;
+    top: 35%;
+    margin-left: -140px;
+    background: #fff;
+    z-index: 1000;
+    border: none;
+    border-radius: 12px;
+    border-color: #ddd;
+    text-align: center;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);
+}
+.promptInfo p{
+    padding: .7rem 0;
+    text-align: center;
+    font-size: 14px;
+    border-bottom: 1px solid #ddd;
+}
+.promptInfo .true-login{
+    display: block;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    text-align: center;
+    background: #fff;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: .5rem;
+    color: #0099FF;
+    font-size: .9rem;
+    font-weight: bold;
+}

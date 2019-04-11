@@ -1,0 +1,81 @@
+#thelist{
+	margin-top: 45px;
+}
+#thelist>li{
+	border-bottom: .2rem solid #E8E8E8;
+}
+.orderNum{
+	height: 1.2rem;
+	line-height: 1.2rem;
+	padding-left: .3rem;
+	color: #999;
+	border-bottom: 1px solid #f6f6f6;
+}
+.orderNum span{
+	color: #000;
+}
+.state-total{
+	margin: 0 .3rem;
+	border-bottom: 1px solid #ddd;
+	padding: .2rem 0;
+	font-size: .4rem;
+	overflow: hidden;	
+}
+.state-total .left{
+	float: left;
+}
+.state-total a{
+	float: right;
+	background: #F39702;
+	color: #fff;
+	padding: .1rem .3rem;
+	border-radius: 2px;
+	margin-top: .15rem;
+}
+.state-total p{
+	color: #666;
+}
+.state-total p span{
+	font-size: .4rem;
+	padding-left: .1rem;
+	color: #5499e8;
+}
+.state-total .total-price span{
+	color: #f00;
+	font-size: .4rem;
+}
+.order-detail{
+	padding: .3rem;
+	overflow: hidden;
+}
+.order-detail>img{
+	float: left;
+	width: 30%;
+	height: 2rem;
+}
+.course-info{
+	float: left;
+	width: 70%;
+	padding-left: .2rem;
+	box-sizing: border-box;
+}
+.course-info ul li{
+	font-size: .35rem;
+	line-height: .4rem;
+	color: #999;
+}
+.course-info ul li span{
+	color: #666;
+	padding-left: .15rem;
+}
+.delete-order{
+	float: right;
+	background: #ddd;
+    color: #fff;
+    padding: .13rem .3rem;
+    border-radius: 2px;
+    margin-top: .15rem;
+    margin-right: .2rem;
+    border: 0;
+    outline: 0;
+}

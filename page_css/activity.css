@@ -1,0 +1,67 @@
+.activity{
+	padding: 20px 0;
+}
+.activity ul li{
+	overflow: hidden;
+	margin-bottom: 25px;
+	height:145px;
+}
+.activity ul li>div{
+	float: left;
+	height:100%;
+}
+.activity ul li>div img{
+	/*width: 260px;*/
+	height:100%;
+}
+.activity ul li .mid{
+	padding-left: 30px;
+}
+.activity ul li .mid h2{
+	color:#777;
+}
+.activity ul li .mid p{
+	line-height: 30px;
+	font-size: 14px;
+	color:#7F7F7F;
+}
+.activity ul li .mid p span{
+	width: 80px;
+	color:#333;
+	font-size: 14px;
+	display: inline-block;
+}
+.activity ul li .mid p:last-child span{
+	width: 50px;
+}
+.activity ul li .right{
+	float: right;
+}
+.activity ul li .right .price{
+	display: block;
+	font-size: 25px;
+	color:#F39702;
+	margin: 55px 35px 25px 0;
+}
+.activity ul li .right .price i{
+	font-style: normal;
+	font-size: 14px;
+}
+.activity ul li .right button{
+	width: 135px;
+	height: 35px;
+	line-height: 35px;
+	color:#fff;
+	border:0;
+	outline: 0;
+	cursor: pointer;
+	background: #F39702;
+}
+.activity>button{
+	width: 100%;
+	height:50px;
+	background: url(../img/click_more.png) center center /100% 100%;
+	border:0;
+	outline: 0;
+	cursor: pointer;
+}

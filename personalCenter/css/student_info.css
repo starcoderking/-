@@ -1,0 +1,232 @@
+.student_info{
+	width: 100%;
+	min-height: 550px;
+}
+.student_info h1 {
+	font-size: 20px;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 20px;
+}
+
+.student_info h1 span {
+	display: block;
+	padding: 5px 20px;
+	width: 150px;
+	color: #F39702;
+	box-sizing: border-box;
+	border-bottom: 2px solid #F39702;
+}
+.add_student,
+.del_student {
+	float: right;
+	margin-top: -38px;
+	width: 80px;
+	height: 35px;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	border-radius: 5px;
+	background: #f39702;
+	color: #fff;
+}
+
+.student_info>h1 .edit {
+	margin-right: 200px;
+	width: 105px;
+}
+
+/*.student_info>div {
+	width: 50%;
+	margin: 0 auto;
+	padding: 15px 0;
+}*/
+
+.student_info>div ul li {
+	padding: 10px 0;
+	overflow: hidden;
+}
+
+.student_info>div ul li span {
+	font-size: 14px;
+	color: #9d9d9d;
+	float: left;
+	line-height: 35px;
+	display: inline-block;
+}
+.student_info>div ul li span>b{
+	color: #f00;
+}
+.student_info>div ul li input {
+	width: 70%;
+	height: 35px;
+	line-height: 40px;
+	float: right;
+	border-radius: 3px;
+	border: 1px solid #ddd;
+	padding-left: 10px;
+	margin-right: 10%;
+}
+
+.student_info>div ul li #choice_sex {
+	width: 73%;
+	height: 35px;
+	line-height: 40px;
+	float: right;
+	border-radius: 3px;
+	border: 1px solid #ddd;
+	padding-left: 10px;
+	margin-right: 10%;
+}
+
+.student_info>div button {
+	width: 150px;
+	height: 40px;
+	color: #fff;
+	background: #F39702;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	margin: 20px auto;
+	display: block;
+	border-radius: 3px;
+}
+.student_info>div .save{
+	margin-left: 160px;
+}
+.student_info>div .none {
+	display: none;
+}
+
+
+/*.student_info>div .disabled{
+	background: #ddd;
+}*/
+
+.student_info .students_list {
+	padding: 10px 20px;
+	text-align: center;
+}
+
+.student_info .students_list span {
+	display: inline-block;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	color: #999;
+	border: 1px solid #F39702;
+	text-align: center;
+	cursor: pointer;
+	margin: 5px;
+	border-radius: 3px;
+	position: relative;
+}
+
+.student_info .students_list span b {
+	position: absolute;
+	right: 2px;
+	top: 0;
+	display: none;
+}
+
+.student_info .students_list span.cur {
+	background: #F39702;
+	color: #fff;
+}
+/*学员信息卡片*/
+.student_card{
+	width: 100%;
+	padding: 20px 10px;
+}
+.student_info .student_card ul li{
+	float: left;
+	width: 30%;
+	height: 165px;
+	padding: 0 10px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	margin-left: 15px;
+	position: relative;
+	box-sizing: border-box;
+}
+.student_info .student_card ul li.addStudent{
+	border: 1px solid #ddd;
+	overflow: hidden;
+	cursor: pointer;
+}
+.student_info .student_card ul li.addStudent h3{
+	color: #666;
+}
+.student_info .student_card ul li.addStudent p{
+	color: #999;
+    text-align: center;
+    font-size: 60px;
+    line-height: 140px;
+}
+.student_info .student_card ul li.boy{
+	background: #49cb5f;
+}
+.student_info .student_card ul li.girl{
+	background: #F39704;
+}
+.student_card ul li h3{
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+	font-weight: normal;
+}
+.student_info .student_card ul li span{
+    position: absolute;
+    right: 5px;
+    top: 2px;
+    font-size: 12px;
+    color: #f00;
+    background: #fff;
+    width: 30px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.student_info .student_card p{
+	font-size: 14px;
+	color: #fff;
+	line-height: 30px;
+}
+.student_mask{
+	position:fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #000;
+	opacity: .75;
+	z-index: 1000;
+}
+.student_form{
+	position: fixed;
+	width: 500px;
+	height: 380px;
+	top: 50%;
+	left: 50%;
+	background: #fff;
+	margin-top: -190px;
+	margin-left: -250px;
+	z-index: 1001;
+}
+.student_form h2{
+	text-align: center;
+	background: #ddd;
+	padding: 5px;
+}
+.student_form h2 span{
+	float: right;
+	color: #f00;
+	font-size: 20px;
+	margin: -3px 3px 0 0;
+	cursor: pointer;
+	font-weight: normal;
+}
+.student_form>ul{
+	padding: 0 20px;
+}

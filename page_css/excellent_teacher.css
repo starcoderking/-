@@ -1,0 +1,56 @@
+.teacher_list ul{
+	padding:10px 30px;
+	overflow: hidden;
+}
+.teacher_list ul li{
+	float: left;
+	width: 23%;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin: 1%;
+	height:370px;
+	overflow: hidden;
+}
+.teacher_list ul li a{
+	float: left;
+	width: 100%;
+}
+.teacher_list ul li a img{
+	width: 100%;
+	height:270px;
+	display: inherit;
+}
+.teacher_list ul li a div{
+	padding:10px;
+}
+.teacher_list ul li a div h2{
+	color:#969696;
+	font-size: 14px;
+	line-height: 30px;
+}
+.teacher_list ul li a div h2 span{
+	display: inline-block;
+	font-size: 18px;
+	color:#F39702;
+	border-bottom: 2px #f39702 solid;
+	z-index: 99;
+	padding-right: 3px;
+}
+.teacher_list ul li a div p{
+	height: 80px;
+	overflow: hidden;
+	font-size: 14px;
+	color:#777;
+	text-indent: 28px;
+	text-align: justify;
+	line-height: 23px;
+	border-top: 2px #bbb solid;
+	margin-top: -2px;
+	/*white-space:nowrap;
+	text-overflow: ellipsis;*/
+}
+#kkpager{
+	width: 80%;
+	margin: 0 auto;
+}

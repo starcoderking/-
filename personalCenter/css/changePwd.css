@@ -1,0 +1,69 @@
+.changePwd h1 {
+	font-size: 20px;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 20px;
+}
+
+.changePwd h1 span {
+	display: block;
+	padding: 5px 20px;
+	width: 150px;
+	color: #F39702;
+	box-sizing: border-box;
+	border-bottom: 2px solid #F39702;
+}
+.changePwd div button {
+	display: block;
+	width: 130px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	color: #fff;
+	background: #F39702;
+	cursor: pointer;
+	border: 0;
+	outline: 0;
+	border-radius: 3px;
+	margin: 20px auto;
+}
+
+
+/*.changePwd div button.disabled{
+	background: #ddd;
+}*/
+
+.changePwd div ul {
+	width: 500px;
+	margin: 50px auto;
+	padding-right: 20px;
+	text-align: center;
+}
+
+.changePwd div ul li {
+	line-height: 40px;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.changePwd div ul li em {
+	font-style: normal;
+	font-size: 16px;
+	color: #999999;
+}
+
+.changePwd div ul li input {
+	width: 40%;
+	width: 45%;
+	height: 35px;
+	line-height: 40px;
+	border-radius: 3px;
+	border: 1px solid #ddd;
+	padding-left: 10px;
+}
+
+.changePwd div ul li i {
+	position: absolute;
+	color: #FF6600;
+	right: -34px;
+	top: 0px;
+}

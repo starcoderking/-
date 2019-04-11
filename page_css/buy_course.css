@@ -1,0 +1,276 @@
+.none{
+	display: none;
+}
+select {
+    text-align-last: right;
+}
+option {
+    /*direction: rtl;*/
+}
+.order_detail{
+	padding: 30px 15px;
+	overflow: hidden;
+}
+.order_detail>.left{
+	float: left;
+	width: 300px;
+	/*height:380px;*/
+	overflow: hidden;
+	padding: 5px;
+	border:1px solid #ddd;
+	box-sizing: border-box;
+}
+.order_detail>.left>img{
+	width: 100%;
+}
+.order_detail>.left>h3{
+	color:#777;
+	line-height: 40px;
+}
+.order_detail>.left>ul{
+	padding:10px 0;
+	border-top:3px solid #f8f8f8;
+}
+.order_detail>.left>ul li{
+	color:#969696;
+	line-height: 30px;
+	margin-left: 10px;
+}
+.order_detail>.left>ul li b{
+	padding-right: 5px;
+}
+.order_detail>.left>ul li:last-child{
+	text-align: right;
+	margin-top: 15px;
+}
+.order_detail>.left>ul li:last-child span{
+	font-size: 20px;
+	color:#F39702;
+}
+.order_detail>.right{
+	float: left;
+	margin-left: 20px;
+	padding: 10px;
+	width: 850px;
+	min-height: 420px;
+	border:1px solid #ddd;
+	box-sizing: border-box;
+}
+.order_detail>.right h2{
+	font-size: 16px;
+	font-weight: normal;
+	border-bottom: 8px solid #F8F8F8;
+	padding:0 0 5px 20px;
+	font-weight: 600;
+	margin-top: 20px;
+}
+/*.order_detail>.right h2.p_title{
+	margin-top: 25px;
+}*/
+.order_detail>.right ul{
+	width: 92%;
+	margin: 0px auto;
+	padding: 0 5px;
+	overflow: hidden;
+}
+.order_detail>.right ul li{
+	line-height: 30px;
+}
+.order_detail>.right ul.info li.infoLi1{
+	width: 45%;float: left;
+}
+.order_detail>.right ul.info li.infoLi2{
+	width: 45%;float: right;
+}
+.order_detail>.right ul.info li ul{width:100% ;}
+.info li{
+	/*overflow: hidden;*/
+	border-bottom:1px dashed #eee;
+}
+
+/*选择学员*/
+/*.select_child{
+	padding-bottom: 25px;
+}*/
+.select_child li{
+	overflow: hidden;
+	border-bottom:1px dashed #eee;
+}
+.select_child li:first-child{border-bottom:1px solid #eee;}
+.select_child li span,
+.select_child li em,
+.select_child li i
+{
+	width: 25%;
+	float: left;
+}
+.select_child li i{
+	text-align: center;
+}
+.select_child li i{
+	font-style: normal;
+	padding-left: 10px;
+}
+.select_child li em{
+	text-align: center;
+	font-style: normal;
+}
+.select_child li div{
+	float: right;
+}
+.select_title span,
+.select_title em,
+.select_title i
+{
+	font-size: 16px;
+	font-weight: bold;
+}
+.order_detail>.right .info li em{
+	font-style: normal;
+	font-size: 14px;
+	color:#999;
+}
+.order_detail>.right .info li span{
+	float:right;
+	font-size: 14px;
+	color: #333;
+}
+.order_detail>.right .info li span select{    
+	margin-right: -5px;
+    border: 0;
+    outline: 0;
+}
+.order_detail>.right .pay_way{
+	padding: 10px 0;
+}
+.order_detail>.right .pay_way li{
+	padding: 0 5px;
+	color:#7c7c7c;
+	font-size: 16px;
+}
+.order_detail>.right .pay_way li b{
+	color:#41b035;
+	font-size: 18px;
+	padding-right: 5px;
+	vertical-align: middle;
+}
+.order_detail>.right .pay_way li:last-child b{
+	color:#009fe8;
+}
+.order_detail>.right .pay_way li span{
+	vertical-align: middle;
+	font-size: 14px;
+}
+.order_detail>.right .pay_way li div{
+	float: right;
+}
+.order_detail>.right button{
+	float:right;
+	width: 140px;
+	height: 45px;
+	color:#fff;
+	text-align: center;
+	line-height: 45px;
+	background: #F39702;
+	border:0;
+	outline: 0;
+	cursor: pointer;
+	margin-top: 15px;
+	border-radius: 2px;
+}
+.radio{width: 20px;height: 20px;cursor: pointer;display: inline-block;background: url(../img/icon_unselect.png) no-repeat;}
+.radioSel{background: url(../img/icon_select.png) no-repeat;}
+.btn{width: 39px;height: 30px;line-height:30px;cursor:pointer;display: none;}
+.down{background: url(../img/iconCorner2.png) no-repeat right center;cursor: ;}
+.up{background: url(../img/iconCorner1.png) no-repeat right center;}
+.mask{
+	position: fixed;
+	width:100%;
+	height: 100%;
+	background: rgba(0,0,0,0.7);;
+	z-index: 100;
+	left: 0;
+	top: 0;
+}
+.studentInfo{
+	width: 500px;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+	background: #fff;
+	margin-left: -250px;
+	margin-top: -100px;
+	z-index: 101;
+}
+.studentForm li{
+	line-height: 50px;
+	overflow: hidden;
+}
+.studentForm li span{
+	float: left;
+    font-size: 16px;
+    color: #999;
+    width: 100px;
+    text-align: r;
+    text-align: right;
+    margin: 0 20px 0 0;
+}
+.studentForm li span b{
+	color:#f00;
+}
+.studentInfo h3{
+    padding: 0 10px;
+    height: 31px;
+    line-height: 31px;
+    background: #f3f3f3;
+    font-size: 14px;
+    color: #666;
+}
+.studentInfo h3 span{
+	float: right;
+	color:#f00;
+	cursor: pointer;
+}
+.saveStudentInfo{
+	display: block;
+	width: 100px;
+	height: 35px;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	background: #F39702;
+	color: #fff;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+li input,#choice_sex{
+	float: left;
+    width: 250px;
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid #999;
+    border-radius: 1px;
+    outline: 0;
+}
+#choice_sex{
+	width: 260px;
+}
+#huiminCard{
+	float: right;
+	width: 160px;
+	overflow: hidden;
+}
+#huiminCard p{
+	float: right;
+	width: 75px;
+	text-align: right;
+	overflow: hidden;
+}
+#huiminCard p input{
+	width: 20px;
+	float: left;
+	margin-left: 10px;
+}
+#huiminCard p span{
+	float: right;
+}

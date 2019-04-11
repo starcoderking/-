@@ -1,0 +1,31 @@
+.huiminCard h1 {
+	font-size: 20px;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 20px;
+}
+
+.huiminCard h1 span {
+	display: block;
+	padding: 5px 20px;
+	width: 150px;
+	color: #F39702;
+	box-sizing: border-box;
+	border-bottom: 2px solid #F39702;
+}
+.huiminCard table{
+	width: 70%;
+	margin: 0 auto;
+}
+.huiminCard table,tr,td,th{
+	border:1px solid #ddd;
+	text-align: center;
+	border-collapse: collapse;
+}
+.huiminCard tr,.huiminCard td,.huiminCard th{
+	font-size: 15px;
+	text-align: center;
+	padding: 10px 0;
+}
+td a{
+	color: #F39704;
+}

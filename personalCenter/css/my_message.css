@@ -1,0 +1,211 @@
+.message h1 {
+	font-size: 20px;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 20px;
+}
+
+.message h1 span {
+	display: block;
+	padding: 5px 20px;
+	width: 150px;
+	color: #F39702;
+	box-sizing: border-box;
+	border-bottom: 2px solid #F39702;
+}
+.notice .notice_list li {
+	border-bottom: 1px solid #ddd;
+	margin: 0 15px;
+	cursor: pointer;
+}
+
+.notice .notice_list li img,
+.notice .notice_list li b {
+	float: left;
+	line-height: 45px;
+	font-size: 15px;
+	margin-left: 15px;
+}
+
+.notice .notice_list li span {
+	float: right;
+	margin-right: 10px;
+	min-width: 22px;
+	height: 22px;
+	padding: 2px;
+	line-height: 22px;
+	border-radius: 50%;
+	background: #f00;
+	text-align: center;
+	color: #fff;
+	font-size: 10px;
+	margin-top: 9px;
+}
+
+.chatName {
+	width: 92%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	border-bottom: 1px #cbcbcb solid;
+	margin: 0px auto;
+}
+
+.back {
+	width: 20px;
+	height: 20px;
+	background: url(../../img/back.png) no-repeat center center;
+	cursor: pointer;
+	float: right;
+	margin-top: 15px;
+}
+
+.notice_detail>ul li {
+	cursor: pointer;
+}
+
+.chatPhoto {
+	width: 10%;
+	float: left;
+	position: relative;
+}
+
+.chatPhoto img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.chatSign {
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	line-height: 22px;
+	border-radius: 50%;
+	background: #f00;
+	text-align: center;
+	color: #fff;
+	font-size: 10px;
+	left: 30px;
+}
+
+.chatInfo {
+	width: 90%;
+	float: left;
+	border-bottom: 1px #cbcbcb solid;
+}
+
+.chatNote {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+}
+
+.chatNote b {
+	font-size: 16px;
+	color: #666;
+	float: left;
+}
+
+.chatNote span {
+	font-size: 13px;
+	color: #bbb;
+	float: right;
+}
+
+.chatMes {
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	color: #777;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.private_letter>ul {
+	border: 1px solid #ddd;
+	margin: 10px 30px;
+	height: 360px;
+	overflow-y: scroll;
+	background: #f9f9f9;
+}
+
+.notice_list {
+	height: 530px;
+	overflow-y: scroll;
+}
+
+.notice_detail>ul {
+	height: 480px;
+	overflow-y: scroll;
+}
+
+.private_letter ul li p {
+	max-width: 85%;
+	float: left;
+	background: #fff;
+	border: 1px #cbcbcb solid;
+	padding: 10px 2%;
+	border-radius: 10px;
+}
+
+.private_letter ul li.me img {
+	float: right;
+}
+
+.private_letter ul li.me p {
+	background: #b3e866;
+	float: right;
+}
+
+.message>ul {
+	padding: 10px 20px;
+}
+
+.message>ul li {
+	float: left;
+	width: 75px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	font-size: 14px;
+	border: 1px solid #F39702;
+}
+
+.message>ul li.cur {
+	background: #F39702;
+	color: #fff;
+}
+
+.message>div {
+	margin: 20px 100px 0 20px;
+	height: 550px;
+	border: 1px solid #ddd;
+}
+
+.message>div ul {
+	padding: 10px;
+}
+
+.message>div ul li {
+	padding: 10px;
+	overflow: hidden;
+}
+
+.message>div ul li img {
+	float: left;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.message>div ul li>div div {
+	float: left;
+}
+
+.message>div ul li>div span {
+	float: right;
+}

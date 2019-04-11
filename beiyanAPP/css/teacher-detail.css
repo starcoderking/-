@@ -1,0 +1,257 @@
+
+
+.mui-bar .mui-icon {
+	color: #fff;
+}
+
+.mui-bar .mui-title {
+	color: #fff;
+}
+
+.mui-content {
+	background: #fff;
+}
+
+.mui-table-view-cell {
+	background: #fff;
+}
+
+.mui-table-view-cell img {
+	float: left;
+	width: 25%;
+	height:2.7rem;
+}
+
+.mui-table-view-cell .teacher-intro {
+	float: left;
+    width: 75%;
+    padding: 5px;
+    padding-top: 0px;
+    /*padding-left: .4rem;*/
+    /*box-sizing: border-box;*/
+}
+
+.mui-table-view-cell .teacher-intro i {
+	display: inline-block;
+	color: #f39702;
+	/*background: url(images/teacher-list-icon.png) no-repeat center center;*/
+	vertical-align: middle;
+}
+
+.mui-table-view-cell .teacher-intro b {
+	font-size: 12px;
+}
+
+.mui-table-view-cell .teacher-intro .des {
+	font-size: 12px;
+	text-indent: 24px;
+	line-height: 14px;
+	color: #ABABAB;
+}
+
+.mui-content h3 {
+	font-size: .4rem;
+	line-height: .8rem;
+	text-indent: 10px;
+}
+
+.mui-content h4 {
+	font-size: .4rem;
+	padding:.2rem 0;
+}
+
+.mui-content h5 {
+	font-size: .35rem;
+	margin: 0;
+}
+.teacher-intro>ul li{
+	float: left;
+	width: 50%;
+	font-size: .35rem;
+	color:#666;
+}
+.teacher-intro>ul li:last-child{
+	width: 100%;
+}
+.teacher-intro>ul li span{
+	color:#999;
+	font-size: .35rem;
+}
+.personal-profile {
+	padding: 3px 5px;
+	border-bottom: 8px solid #F8F8F8;
+}
+
+.personal-profile li {
+	font-size: .35;
+	font-size: .35rem;
+	line-height: .5rem;
+	text-indent: 20px;
+	line-height: .5rem;
+	text-align: justify;
+	padding-bottom: .3rem;
+}
+.personal-profile>p{
+	text-indent: .6rem;
+	text-align: justify;
+}
+/*中心选课列表*/
+.courseTitle{
+     width: 96%;
+     height: 30px;
+     line-height: 30px;
+     font-size: 15px;
+     font-weight: 600;
+     color: #f39702;
+     margin: 0px auto;
+}
+ .courseTitle i{
+     font-size: 20px;
+     color: #f39702;
+}
+ .courseInfo {
+     width: 100%;
+     overflow: hidden;
+     margin:0rem auto ;
+     border-bottom: 8px solid #f8f8f8;
+     padding-bottom: 10px;
+}
+ .courseInfo div{
+     width: 96%;
+     margin: 0px auto;
+     font-size: 12px;
+     color: #888;
+     text-indent: 24px;
+}
+.course {
+	width:100%;
+	margin: 10px auto;overflow: hidden;
+}
+.course ul{width: 100%;overflow: hidden;}
+.course ul li {
+    float: left;
+    width: 50%;
+    height:5.2rem;
+    /* margin: 1%; */
+    padding: .2rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+.course ul li a{
+	float: left;
+	width: 100%;
+}
+.course ul li a img{
+	width: 100%;
+}
+.course ul li h3{
+	text-indent: 0;
+	line-height: .5rem;
+	font-size: .4rem;
+	color: #000;;
+}
+.course ul li .courseImg ,.course ul li .courseImg img{
+	width: 100%;
+	/*display: inline-flex;*/
+}
+
+.course ul li p {
+	font-size: .4rem;
+	margin: 0;
+	text-align: right;
+}
+
+.course ul li p span {
+	font-size: .3rem;
+	color:#F39702;
+}
+
+.course ul li div font {
+	color: #AEAEAE;
+	vertical-align: middle;
+	float: right;
+	font-size: .2rem;
+}
+.course ul li div font em{font-size: .6rem;color: #f39702;}
+.course li div i{color: #AEAEAE;font-size: .4rem;}
+.course ul li div span:nth-child(1) {
+	font-size: .6rem;
+}
+
+.course ul li div span.icon-xin {
+	color: #f00;
+}
+.course li b{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 26px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: .2rem;
+}
+.state01{background: url(../images/label01.png) no-repeat;}
+.state02{background: url(../images/label02.png) no-repeat;}
+.state03{background: url(../images/label03.png) no-repeat;}
+.state03 i{font-size: .2rem;color: #fff;}
+
+.menu{
+     width: 100%;
+     height: 90px;
+     border-bottom: 8px solid #f8f8f8;
+     margin-top: 10px;
+}
+ .menu li{
+     width: 15%;
+     height: 50px;
+     margin: 0rem 0.83%;
+     float: left;
+     text-align: center;
+}
+ .menu li i {
+     font-size: .9rem;
+     color: #fff;
+}
+ .menuBgs {
+     width: 50px;
+     height: 50px;
+     line-height:50px;
+     margin: 0rem auto;
+     border-radius:10px ;
+}
+/*首页*/ 
+.menu01{background: -webkit-linear-gradient(120deg, #f39702, #ed7137); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(120deg, #f39702, #ed7137); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(120deg, #f39702, #ed7137); /* Firefox 3.6 - 15 */
+  background: linear-gradient(120deg, #f39702, #ed7137); /* 标准的语法 */}
+.menu02{background: -webkit-linear-gradient(120deg, #bbd324, #8db928); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(120deg, #bbd324, #8db928); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(120deg, #bbd324, #8db928); /* Firefox 3.6 - 15 */
+  background: linear-gradient(120deg, #bbd324, #8db928); /* 标准的语法 */}
+  .menu03{background: -webkit-linear-gradient(120deg, #ed786b, #e94444); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(120deg, #ed786b, #e94444); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(120deg, #ed786b, #e94444); /* Firefox 3.6 - 15 */
+  background: linear-gradient(120deg, #ed786b, #e94444); /* 标准的语法 */}
+  .menu04{background: -webkit-linear-gradient(120deg, #6dc7c9, #10b5b1); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(120deg, #6dc7c9, #10b5b1); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(120deg,#6dc7c9, #10b5b1); /* Firefox 3.6 - 15 */
+  background: linear-gradient(120deg,#6dc7c9, #10b5b1); /* 标准的语法 */}
+  .menu05{background: -webkit-linear-gradient(120deg, #bb64a5, #734499); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(120deg, #bb64a5, #734499); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(120deg, #bb64a5, #734499); /* Firefox 3.6 - 15 */
+  background: linear-gradient(120deg, #bb64a5, #734499); /* 标准的语法 */}
+  .menu06{background: -webkit-linear-gradient(120deg, #b4a48a, #795c3c); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(120deg, #b4a48a, #795c3c); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(120deg, #b4a48a, #795c3c); /* Firefox 3.6 - 15 */
+  background: linear-gradient(120deg, #b4a48a, #795c3c); /* 标准的语法 */}
+  .menuTitle{width: 100%;height: 30px;line-height: 30px;text-align: center;color: #666;font-size: .35rem;}
+.titleBg{width: 100%;height: 30px;line-height:30px;}
+.titleName{margin-left: 10px;color: #f39702;}
+.titleName i{font-size: .5rem;color: #f39702;margin-right: 5px;float: left;}
+.titleMore{float: right;font-size: 12px;color: #BBBBBB;margin-right: 10px;} 
+.readmore{float: right;margin-right: 20px;color: #bbb;font-size: 12px;}
+.readmores{width: 100%;height: 30px;line-height: 30px;text-align: center;color: #bbb;font-size: 12px;}
+#banner img{width: 100%;}

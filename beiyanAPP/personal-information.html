@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>个人信息</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/uiAlertView-1.0.0.css" />
+		<link rel="stylesheet" href="css/iconfont.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/personal-information.css"/>
+		<script type="text/javascript" src="js/flexible_css.debug.js"></script>
+		<script type="text/javascript" src="js/flexible.debug.js"></script>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">个人信息</h1>
+		</header>
+		<div class="mui-content">
+			<ul>
+				<li class="img">
+					<span>
+						<img src="images/user.jpg" alt="11" />
+					</span>
+					<em>修改头像<i class="iconfont icon-you"></i></em>
+				</li>
+				<li class="text">
+					<span>昵称</span>
+					<input type="text" value="张大爷" id="nickname"/>
+					<!--<em>张伟<i class="iconfont icon-you"></i></em>-->
+				</li>
+				<li class="text">
+					<span>姓名</span>
+					<input type="text" value="张伟" id="uname"/>
+					<!--<em>张伟<i class="iconfont icon-you"></i></em>-->
+				</li>
+				<li class="text">
+					<span>联系电话</span>
+					<input type="number" value="13821099278" id="phone"/>
+					<!--<em>13821099278<i class="iconfont icon-you"></i></em>-->
+				</li>
+				<li class="text">
+					<span>详细地址</span>
+					<input type="text" value="天津市 南开区 迎水北里" id="address"/>
+					<!--<em>迎水北里<i class="iconfont icon-you"></i></em>-->
+				</li>
+			</ul>
+			<!--<div class="textBg">
+				<span>姓名</span>
+				<input type="text" value="张伟"/>
+				<select><option>1</option></select>
+				<i class="iconfont icon-iconfonterror"></i>
+			</div>-->
+			<button class="edit">编辑</button>
+			<button class="submit none">提交</button>
+		</div>
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/jquery.uiAlertView-1.0.0.js"></script>
+		<!--<script src="js/mui.min.js"></script>-->
+		<script src="js/common.js"></script>
+		<script src="js/personal-information.js"></script>
+	</body>
+</html>

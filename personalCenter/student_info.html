@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<div class="student_info">
+			<h1><span>学员信息</span><!--<button class="edit">编辑学员信息</button>--><button class="del_student">删除学员</button></h1>
+			<!--<ul class="students_list">-->
+				<!--<span class="cur">张楠</span>
+							<span>张淼</span>-->
+			<!--</ul>-->
+			<div class="student_card">
+				<ul>
+					<!--<li>
+						<h3>李梅</h3>
+						<p>性&nbsp;&nbsp;别：男</p>
+						<p>生&nbsp;&nbsp;日：2004-11-12</p>
+						<p>学&nbsp;&nbsp;校：西青小学</p>
+						<p>兴趣爱好：唱歌跳舞</p>
+						<span class="studentEdit">编辑</span>
+						<span class="delete none">删除</span>
+					</li>
+					<li>
+						<h3>李梅</h3>
+						<p>性&nbsp;&nbsp;别：男</p>
+						<p>生&nbsp;&nbsp;日：2004-11-12</p>
+						<p>学&nbsp;&nbsp;校：西青小学</p>
+						<p>兴趣爱好：唱歌跳舞</p>
+						<span class="studentEdit none">编辑</span>
+						<span class="delete ">删除</span>
+					</li>-->
+				</ul>
+			</div>
+			<div class="student_mask none"></div>
+			<div class="student_form none">
+				<h2>填写学员信息<span class="close_mask">x</span></h2>
+				<ul>
+					<li><span><b>*</b>姓名</span><input type="text" id="membername" /></li>
+					<li><span><b>*</b>性别</span>
+						<select id="choice_sex">
+							<option value="1">男</option>
+							<option value="2">女</option>
+						</select>
+					</li>
+					<li><span><b>*</b>生日</span><input class="Wdate" type="text" onClick="WdatePicker()"></li>
+					<li><span>学校</span><input type="text" id="school" /></li>
+					<li><span>兴趣爱好</span><input type="text" id="like" /></li>
+				</ul>
+				<button class="add">添加</button>
+				<button class="save none">保存</button>
+			</div>
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,28 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-size: 0.4rem;
+	font-family: tahoma, arial, "微软雅黑", \5b8b\4f53, sans-serif;
+}
+a:link,a:hover,a:active,a:visited{text-decoration: none;}
+body{background: #fff;}
+li{list-style: none;}
+a {
+	text-decoration: none;
+	font-size: 0.4rem;
+}
+.clearfloat:after {
+	content: " ";
+	display: table;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.mui-content{background: #fff;}
+none{display: none;}
+.mui-bar{background: linear-gradient(120deg, #f39702, #ed7137);}
+.mui-bar h1, .mui-bar a{color:#fff;}
+.mui-bar h1{color:#fff;}
+nav.mui-bar{background: #fff;}
+.mui-active{color: #007aff;}
+
