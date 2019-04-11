@@ -1,5 +1,4 @@
 var url='http://39.106.112.14';
-// var url='http://10.1.70.11:8080/sellcourse/';
 $(function(){
 	//记录地址
 	var U = new Url();
